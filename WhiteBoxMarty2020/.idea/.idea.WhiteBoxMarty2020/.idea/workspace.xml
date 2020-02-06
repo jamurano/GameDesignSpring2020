@@ -12,7 +12,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -20,6 +21,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerWalk.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +80,10 @@
       <updated>1580832362661</updated>
       <workItem from="1580832369222" duration="927000" />
       <workItem from="1580840679765" duration="1196000" />
-      <workItem from="1580841917054" duration="2418000" />
+      <workItem from="1580841917054" duration="2574000" />
+      <workItem from="1581013590872" duration="131000" />
+      <workItem from="1581013753346" duration="206000" />
+      <workItem from="1581015019845" duration="44000" />
     </task>
     <servers />
   </component>
