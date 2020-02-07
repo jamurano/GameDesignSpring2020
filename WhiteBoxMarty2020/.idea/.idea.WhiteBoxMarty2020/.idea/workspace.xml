@@ -13,7 +13,6 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,6 +84,8 @@
       <workItem from="1581013753346" duration="206000" />
       <workItem from="1581015019845" duration="44000" />
       <workItem from="1581025268789" duration="65000" />
+      <workItem from="1581043904567" duration="437000" />
+      <workItem from="1581047010427" duration="330000" />
     </task>
     <servers />
   </component>
