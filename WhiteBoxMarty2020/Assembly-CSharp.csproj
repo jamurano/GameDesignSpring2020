@@ -59,8 +59,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Climb.cs" />
+    <Compile Include="Assets\Scripts\Climb.cs" />
+    <Compile Include="Assets\Scripts\EnemyWander.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Spawn.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/jessicamurano/Desktop/Marty Class Game Design I/GameDesignSpring2020/WhiteBoxMarty2020/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

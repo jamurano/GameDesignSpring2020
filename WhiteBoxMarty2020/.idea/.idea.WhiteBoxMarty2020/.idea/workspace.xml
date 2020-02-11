@@ -13,7 +13,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Climb.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyWander.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Spawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -24,6 +25,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Climb.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyWander.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spawn.cs" />
       </list>
     </option>
   </component>
@@ -90,7 +94,7 @@
       <workItem from="1581047010427" duration="408000" />
       <workItem from="1581388454338" duration="2584000" />
       <workItem from="1581434686719" duration="198000" />
-      <workItem from="1581434952484" duration="339000" />
+      <workItem from="1581434952484" duration="1414000" />
     </task>
     <servers />
   </component>
