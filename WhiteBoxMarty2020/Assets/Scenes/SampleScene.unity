@@ -2150,7 +2150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 143673063}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0039978027, y: -1, z: -0.011993408}
+  m_LocalPosition: {x: 0.5, y: -2.11, z: -0.011993408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 697909681}
@@ -5560,7 +5560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &395502915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10375,14 +10375,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 697909680}
-  speed: 12
+  speed: 20
   gravity: -9.81
-  jumpHeight: 3
+  jumpHeight: 5
   groundCheck: {fileID: 143673064}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 512
+  isGrounded: 0
+  isClimbing: 0
 --- !u!1 &704317892
 GameObject:
   m_ObjectHideFlags: 0
@@ -12692,7 +12694,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857442246}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.12, z: 0}
   m_LocalScale: {x: 1.2, y: 1.8, z: 1.2}
   m_Children: []
   m_Father: {fileID: 697909681}
@@ -20541,7 +20543,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1351081411
 Transform:
   m_ObjectHideFlags: 0
@@ -32046,7 +32048,7 @@ GameObject:
   - component: {fileID: 1948109462}
   m_Layer: 0
   m_Name: LadderClimb
-  m_TagString: Untagged
+  m_TagString: Climbable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32130,8 +32132,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1948109461}
   m_LocalRotation: {x: -0, y: 0.095899224, z: -0, w: 0.9953911}
-  m_LocalPosition: {x: 101.64, y: 10.1, z: 54.35}
-  m_LocalScale: {x: 2.2652, y: 16.170872, z: 1}
+  m_LocalPosition: {x: 101.64, y: 8.5, z: 54.35}
+  m_LocalScale: {x: 2.2652, y: 14.77953, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

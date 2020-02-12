@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 { 
@@ -12,33 +13,58 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f; 
     public LayerMask groundMask;
     
-    private Vector3 velocity; 
-    private bool isGrounded; 
-    
-    void Update() 
-    { 
-/*       isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-*/        
-        if (/*isGrounded && */velocity.y < 0) 
-        { 
-            velocity.y = -2f; 
-        }
-        
+    private Vector3 velocity;
+    public bool isGrounded;
+    public bool isClimbing;
+
+    void Update()
+    {
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance);
         float x = Input.GetAxis("Horizontal"); 
         float z = Input.GetAxis("Vertical");
-        
-        Vector3 move = transform.right * x + transform.forward * z;
-        
-        controller.Move(move * speed * Time.deltaTime);
-        
-        if (Input.GetButtonDown("Jump") /*&& isGrounded*/) 
-        { 
-            Debug.Log("jump button pressed");
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity); 
+
+        Vector3 move = new Vector3(0,0,0);
+        if (isClimbing == false)
+        {
+            move = transform.right * x + transform.forward * z;
+        }
+
+        else
+        {
+            move = transform.right * x + transform.up * z;
         }
         
-        velocity.y += gravity * Time.deltaTime;
+        print(move);
+
+        controller.Move(move * speed * Time.deltaTime);
         
-        controller.Move(velocity * Time.deltaTime); 
-    } 
+        if (Input.GetButtonDown("Jump") && isGrounded) 
+        { 
+            Debug.Log("jump button pressed");
+            velocity.y = jumpHeight; 
+        }
+
+        if (isClimbing == false)
+        {
+            velocity.y += gravity * Time.deltaTime;
+            
+            controller.Move(velocity * Time.deltaTime);
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Climbable")
+        {
+            isClimbing = true;
+        }
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Climbable")
+        {
+            isClimbing = false;
+        }
+    }
 }

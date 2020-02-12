@@ -59,8 +59,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Attack.cs" />
     <Compile Include="Assets\Scripts\Climb.cs" />
     <Compile Include="Assets\Scripts\EnemyWander.cs" />
+    <Compile Include="Assets\Scripts\HealthData.cs" />
+    <Compile Include="Assets\Scripts\ObjectDefinition.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Reference Include="Unity.Timeline.Editor">
