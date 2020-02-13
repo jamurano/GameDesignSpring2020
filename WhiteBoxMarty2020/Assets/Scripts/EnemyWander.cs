@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class EnemyWander : MonoBehaviour
 {
     public float moveSpeed = 3f;
     public float rotSpeed = 100f;
-
+    
     private bool isWandering = false;
     private bool isRotatingLeft = false;
     private bool isRotatingRight = false;
