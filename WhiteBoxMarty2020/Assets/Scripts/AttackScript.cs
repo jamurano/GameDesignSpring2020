@@ -1,46 +1,39 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class AttackScript : MonoBehaviour
 {
-    public bool canAttack;
-    private GameObject currentEnemy;
-    public float attackTime;
+    public GameObject hitBox;
 
-    void OnTriggerEnter(Collider other)
+    public bool attackIsRunning;
+    public float hitBoxWait= 1.5f;
+    void Update()
     {
-        if (other.tag == "Enemy")
+        //Get Mouse Click
+        if (Input.GetMouseButtonDown(0))
         {
-            canAttack = true;
-            currentEnemy = other.gameObject;
-            StartCoroutine(AttackTimer());
-        }
-        // variable in inspector null even when set
-    }
-    public void Attack()
-    {
-        if (Input.GetMouseButtonDown(0) && currentEnemy != null)
-        {
-            currentEnemy.GetComponent<HealthData>().TakeDamage();
-
-            if (currentEnemy.GetComponent<HealthData>().currentHealth <= 0)
+            // Attack
+            if (attackIsRunning == false)
             {
-                canAttack = false;
+                StartCoroutine(Attack());
             }
+          
         }
-        else
-        {
-            canAttack = false;
-        }
+        
     }
 
-    IEnumerator AttackTimer()
+    IEnumerator Attack()
     {
-        while(canAttack == true)
-        {
-            Attack();
-            yield return new WaitForSeconds(attackTime);
-        }
-    }
+        attackIsRunning = true;
+        //Turn Trigger On to detect enemy
+        hitBox.SetActive(true);
+        //WaitForSeconds to leave hitbox on
+        yield return new WaitForSeconds(hitBoxWait);
+        //Turn off hitbox
+        hitBox.SetActive(false);
+        attackIsRunning = false;
+        //WaitForSeconds to not spam button
 
+    }
 }

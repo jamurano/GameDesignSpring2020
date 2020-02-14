@@ -33,8 +33,7 @@ public class PlayerMovement : MonoBehaviour
             move = transform.right * x + transform.up * z;
         }
         
-        print(move);
-
+        transform.rotation = Quaternion.LookRotation(move);
         controller.Move(move * speed * Time.deltaTime);
         
         if (Input.GetButtonDown("Jump") && isGrounded) 

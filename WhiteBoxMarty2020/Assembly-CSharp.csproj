@@ -62,6 +62,8 @@
     <Compile Include="Assets\Scripts\AttackScript.cs" />
     <Compile Include="Assets\Scripts\EnemyWander.cs" />
     <Compile Include="Assets\Scripts\HealthData.cs" />
+    <Compile Include="Assets\Scripts\HitBox.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\ObjectDefinition.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
@@ -81,6 +83,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/jessicamurano/Desktop/Marty Class Game Design I/GameDesignSpring2020/WhiteBoxMarty2020/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/jessicamurano/Desktop/Marty Class Game Design I/GameDesignSpring2020/WhiteBoxMarty2020/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/jessicamurano/Desktop/Marty Class Game Design I/GameDesignSpring2020/WhiteBoxMarty2020/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -8,6 +8,8 @@
           <e p="AttackScript.cs" t="Include" />
           <e p="EnemyWander.cs" t="Include" />
           <e p="HealthData.cs" t="Include" />
+          <e p="HitBox.cs" t="Include" />
+          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
         </e>
