@@ -5,13 +5,18 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="AttackScript.cs" t="Include" />
-          <e p="EnemyWander.cs" t="Include" />
+          <e p="EnemyScripts" t="Include">
+            <e p="EnemyAttackScript.cs" t="Include" />
+            <e p="EnemyWander.cs" t="Include" />
+          </e>
           <e p="HealthData.cs" t="Include" />
           <e p="HitBox.cs" t="Include" />
-          <e p="NewBehaviourScript.cs" t="Include" />
           <e p="ObjectDefinition.cs" t="Include" />
-          <e p="PlayerMovement.cs" t="Include" />
+          <e p="Player Scripts" t="Include">
+            <e p="AttackScript.cs" t="Include" />
+            <e p="CollectObj.cs" t="Include" />
+            <e p="PlayerMovement.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

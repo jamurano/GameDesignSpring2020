@@ -22,10 +22,10 @@ public class HealthData : MonoBehaviour
         }
     }
 
-    public void TakeDamage()
+    public void TakeDamage(int damage)
     {
         onTakeDamageEvent.Invoke();
-        currentHealth = currentHealth - 10;
+        currentHealth = currentHealth - damage;
     }
 
 }

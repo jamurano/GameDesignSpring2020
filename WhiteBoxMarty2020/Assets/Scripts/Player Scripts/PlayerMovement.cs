@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 { 
@@ -25,15 +24,18 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = new Vector3(0,0,0);
         if (isClimbing == false)
         {
-            move = transform.right * x + transform.forward * z;
+            move = new Vector3(-x, 0, -z);
+            if (x != 0 || z != 0)
+            {
+                transform.rotation = Quaternion.LookRotation(move);
+            }
         }
 
         else
         {
-            move = transform.right * x + transform.up * z;
+            move = new Vector3(-x,z, 0);
         }
-        
-        transform.rotation = Quaternion.LookRotation(move);
+
         controller.Move(move * speed * Time.deltaTime);
         
         if (Input.GetButtonDown("Jump") && isGrounded) 
