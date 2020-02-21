@@ -19,6 +19,7 @@ public class EnemyWander : MonoBehaviour
         {
             wanderRoutine = StartCoroutine(Wander());
         }
+        
         if (isRotatingRight == true)
         {
             transform.Rotate(transform.up * Time.deltaTime * rotSpeed);
@@ -42,7 +43,6 @@ public class EnemyWander : MonoBehaviour
 
     private void OnDisable()
     {
-        Debug.Log(gameObject.name + " disabled");
         if (wanderRoutine != null)
         {
             StopCoroutine(wanderRoutine);

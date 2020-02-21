@@ -9,10 +9,7 @@ public class AttackScript : MonoBehaviour
     public bool attackIsRunning;
     public bool magicIsRunning;
     public float hitBoxWait = 1.5f;
-
-   //public float hitAttack;
-   //public float magicAttack;
-
+    
    void Update()
    {
        //Get Mouse Click
@@ -24,8 +21,8 @@ public class AttackScript : MonoBehaviour
                StartCoroutine(Attack());
            }
 
-       }
-
+       } 
+       
        if (Input.GetMouseButtonDown(1))
        {
            // Attack
@@ -37,19 +34,17 @@ public class AttackScript : MonoBehaviour
    }
 
    IEnumerator Attack()
-        {
-            //if (hitAttack)
-            //{
-                attackIsRunning = true;
-                //Turn Trigger On to detect enemy
-                //Look at HitBox Script for Damage being called
-                hitBox.SetActive(true);
-                //WaitForSeconds to leave hitbox on
-                yield return new WaitForSeconds(hitBoxWait);
-                //Turn off hitbox
-                hitBox.SetActive(false);
-                attackIsRunning = false;
-                //WaitForSeconds to not spam button
+        { 
+            attackIsRunning = true;
+            //Turn Trigger On to detect enemy
+            //Look at HitBox Script for Damage being called
+            hitBox.SetActive(true);
+            //WaitForSeconds to leave hitbox on
+            yield return new WaitForSeconds(hitBoxWait);
+            //Turn off hitbox
+            hitBox.SetActive(false);
+            attackIsRunning = false;
+            //WaitForSeconds to not spam button
         }
 
    IEnumerator Magic()
