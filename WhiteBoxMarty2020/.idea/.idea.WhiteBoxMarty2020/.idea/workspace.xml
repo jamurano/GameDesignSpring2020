@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyWander.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemySeePlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,6 +45,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/CollectObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyWander.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemySeePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
       </list>
     </option>
@@ -123,6 +125,7 @@
       <workItem from="1582228065890" duration="466000" />
       <workItem from="1582236963814" duration="2000" />
       <workItem from="1582239265549" duration="3596000" />
+      <workItem from="1582658831576" duration="730000" />
     </task>
     <servers />
   </component>

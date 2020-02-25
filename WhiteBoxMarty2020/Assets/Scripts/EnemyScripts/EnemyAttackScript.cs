@@ -14,7 +14,6 @@ public class EnemyAttackScript : MonoBehaviour
     
     void OnTriggerEnter(Collider other)
     {
-        print("IsWorking");
         //If (player stays in collider){
         if (other.tag == "Player")
         {

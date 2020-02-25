@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="EnemyScripts" t="Include">
             <e p="EnemyAttackScript.cs" t="Include" />
+            <e p="EnemySeePlayer.cs" t="Include" />
             <e p="EnemyWander.cs" t="Include" />
           </e>
           <e p="HealthData.cs" t="Include" />
