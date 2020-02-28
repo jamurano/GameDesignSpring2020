@@ -18,7 +18,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyWander.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemySeePlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -46,7 +48,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyWander.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemySeePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +130,7 @@
       <workItem from="1582236963814" duration="2000" />
       <workItem from="1582239265549" duration="3596000" />
       <workItem from="1582658831576" duration="730000" />
+      <workItem from="1582844420083" duration="4978000" />
     </task>
     <servers />
   </component>

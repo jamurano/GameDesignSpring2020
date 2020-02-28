@@ -19,7 +19,7 @@ public class EnemyAttackScript : MonoBehaviour
         {
             canAttack = true;
             // Then EnemyWander stops
-            enemy.GetComponent<EnemyWander>().enabled = false;
+            enemy.GetComponent<EnemyMovement>().currentState = EnemyMovement.enemyStates.ATTACK;
             // Deal damage to player
             // Hit box deals damage to player in HitBox Script
             StartCoroutine(AttackCycle());
@@ -54,8 +54,7 @@ public class EnemyAttackScript : MonoBehaviour
     void OnTriggerExit()
     {
         canAttack = false;
-        // Else{
-        // EnemyWander
-        //}
+        // EnemyMovement changes to wander state
+        enemy.GetComponent<EnemyMovement>().currentState = EnemyMovement.enemyStates.WANDER;
     }
 }
