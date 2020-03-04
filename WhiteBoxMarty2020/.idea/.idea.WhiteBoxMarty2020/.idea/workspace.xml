@@ -12,17 +12,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/CollectObj.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectDefinition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyWander.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TreasureChests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemySeePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -51,6 +51,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/EnemyDrop.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/EnemyDrops.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TreasureChests.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootDrops.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -131,6 +139,12 @@
       <workItem from="1582239265549" duration="3596000" />
       <workItem from="1582658831576" duration="730000" />
       <workItem from="1582844420083" duration="4978000" />
+      <workItem from="1583208910425" duration="23000" />
+      <workItem from="1583208976172" duration="1212000" />
+      <workItem from="1583210281420" duration="1476000" />
+      <workItem from="1583266635196" duration="192000" />
+      <workItem from="1583275673990" duration="317000" />
+      <workItem from="1583276005546" duration="4932000" />
     </task>
     <servers />
   </component>

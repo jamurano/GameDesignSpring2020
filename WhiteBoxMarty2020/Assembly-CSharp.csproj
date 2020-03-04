@@ -61,14 +61,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyAttackScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\EnemySeePlayer.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\EnemyWander.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\SawPlayer.cs" />
-    <Compile Include="Assets\Scripts\HealthData.cs" />
-    <Compile Include="Assets\Scripts\HitBox.cs" />
-    <Compile Include="Assets\Scripts\ObjectDefinition.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\HealthData.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\HitBox.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\LootData.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\LootObjects.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\ObjectDefinition.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\PickUp.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\TreasureChests.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AttackScript.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\CollectObj.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
