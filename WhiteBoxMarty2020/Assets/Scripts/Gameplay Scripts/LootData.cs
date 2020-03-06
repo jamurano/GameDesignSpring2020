@@ -1,11 +1,10 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using Random = System.Random;
 
 public class LootData : MonoBehaviour
 {
     public LootObjects lootManager;
-
+    
     public void LootDrop()
     {
         // random.range of loot objs will instantiate 

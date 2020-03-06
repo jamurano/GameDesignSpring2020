@@ -14,12 +14,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TreasureChests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/PickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -41,7 +43,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/CollectObj.cs" />
@@ -55,10 +56,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/EnemyDrops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TreasureChests.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootDrops.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryUI.cs" />
       </list>
     </option>
   </component>
@@ -145,6 +149,10 @@
       <workItem from="1583266635196" duration="192000" />
       <workItem from="1583275673990" duration="317000" />
       <workItem from="1583276005546" duration="4932000" />
+      <workItem from="1583373484592" duration="1496000" />
+      <workItem from="1583435920205" duration="1683000" />
+      <workItem from="1583448335272" duration="1085000" />
+      <workItem from="1583449754388" duration="3380000" />
     </task>
     <servers />
   </component>

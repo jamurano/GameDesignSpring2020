@@ -2,9 +2,20 @@
 
 public class PickUp : MonoBehaviour
 {
-    // pick up LootObj and Destroy gameobject
-    public void OnMouseDown()
+    public GameObject inventory;
+    public pickUpType pickUps;
+    public enum pickUpType
     {
-        Destroy(gameObject);
+        COINS, HEALTH, MANA
     }
+
+    public void TalkToInventory()
+    {
+        // find inventory object after picking up object
+        inventory = GameObject.Find("Inventory");
+        // tell inventory object what object it is
+        inventory.GetComponent<InventoryUI>().InventoryManager(gameObject);
+        // let inventory object figure out how to add object to itself
+    }
+
 }
