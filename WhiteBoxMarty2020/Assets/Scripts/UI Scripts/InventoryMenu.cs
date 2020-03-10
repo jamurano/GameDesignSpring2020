@@ -2,22 +2,21 @@
 
 public class InventoryMenu : MonoBehaviour
 {
-    public static bool InventoryIsUp;
+    public static bool InventoryIsUp = false;
 
     public GameObject inventoryMenuUI;
 
-    public void Update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             if (InventoryIsUp)
             {
-                OpenInventory();
+                CloseInventory();
             }
-            
             else
             {
-                CloseInventory();
+                OpenInventory();
             }
         }
     }
@@ -26,6 +25,7 @@ public class InventoryMenu : MonoBehaviour
     {
         inventoryMenuUI.SetActive(false);
         Time.timeScale = 1f;
+        InventoryIsUp = false;
         PauseMenu.GameIsPaused = false;
     }
     
@@ -33,6 +33,7 @@ public class InventoryMenu : MonoBehaviour
     {
         inventoryMenuUI.SetActive(true);
         Time.timeScale = 0f;
+        InventoryIsUp = true;
         PauseMenu.GameIsPaused = true;
     }
 
