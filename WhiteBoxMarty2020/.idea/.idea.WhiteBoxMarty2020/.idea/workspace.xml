@@ -13,9 +13,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/PickUp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" root0="FORCE_HIGHLIGHTING" />
@@ -23,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/QuickSelectMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -62,7 +65,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InputData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/QuickSelectMenu.cs" />
       </list>
     </option>
   </component>
@@ -152,7 +160,9 @@
       <workItem from="1583373484592" duration="1496000" />
       <workItem from="1583435920205" duration="1683000" />
       <workItem from="1583448335272" duration="1085000" />
-      <workItem from="1583449754388" duration="3380000" />
+      <workItem from="1583449754388" duration="4501000" />
+      <workItem from="1583804758061" duration="1701000" />
+      <workItem from="1583806576875" duration="2138000" />
     </task>
     <servers />
   </component>

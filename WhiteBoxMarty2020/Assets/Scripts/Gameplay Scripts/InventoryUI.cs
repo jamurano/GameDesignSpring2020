@@ -1,13 +1,10 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour
 {
-    public GameObject healthImage;
-
-    public GameObject manaImage;
-
-    public GameObject CoinImage;
+    public GameObject healthImage, manaImage, coinImage;
 
     public PickUp.pickUpType pickUpType;
 
@@ -23,14 +20,12 @@ public class InventoryUI : MonoBehaviour
 
         if (pickUpType == PickUp.pickUpType.COINS)
         {
-            CoinImage.SetActive(true);
+            coinImage.SetActive(true);
         }
 
         if (pickUpType == PickUp.pickUpType.HEALTH)
         {
             healthImage.SetActive(true);
         }
-        //input.getkey("e") enables and disables Inventory
     }
-
 }

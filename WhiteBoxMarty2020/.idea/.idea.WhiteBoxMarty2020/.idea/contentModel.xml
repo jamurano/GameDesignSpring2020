@@ -13,12 +13,15 @@
           <e p="Gameplay Scripts" t="Include">
             <e p="HealthData.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
+            <e p="InventoryMenu.cs" t="Include" />
             <e p="InventorySlot.cs" t="Include" />
             <e p="InventoryUI.cs" t="Include" />
             <e p="LootData.cs" t="Include" />
             <e p="LootObjects.cs" t="Include" />
             <e p="ObjectDefinition.cs" t="Include" />
+            <e p="PauseMenu.cs" t="Include" />
             <e p="PickUp.cs" t="Include" />
+            <e p="QuickSelectMenu.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="Player Scripts" t="Include">
