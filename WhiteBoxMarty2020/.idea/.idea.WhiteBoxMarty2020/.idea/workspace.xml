@@ -25,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -69,6 +70,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" />
       </list>
     </option>
   </component>
@@ -161,7 +163,7 @@
       <workItem from="1583449754388" duration="4501000" />
       <workItem from="1583804758061" duration="1701000" />
       <workItem from="1583806576875" duration="2138000" />
-      <workItem from="1583848786490" duration="2044000" />
+      <workItem from="1583848786490" duration="2861000" />
     </task>
     <servers />
   </component>
