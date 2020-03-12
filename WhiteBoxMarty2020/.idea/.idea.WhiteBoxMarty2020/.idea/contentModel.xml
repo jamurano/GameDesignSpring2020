@@ -21,7 +21,9 @@
             <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="Player Scripts" t="Include">
+            <e p="AttachToPlatform.cs" t="Include" />
             <e p="AttackScript.cs" t="Include" />
+            <e p="PlatformScript.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
           </e>
           <e p="UI Scripts" t="Include">
