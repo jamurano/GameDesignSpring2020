@@ -3,12 +3,13 @@
 public class InventoryMenu : MonoBehaviour
 {
     public static bool InventoryIsUp = false;
+    public bool inventoryIsOpen = false;
 
     public GameObject inventoryMenuUI;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Tab))
+        if (Input.GetKeyDown(KeyCode.I))
         {
             if (InventoryIsUp)
             {
@@ -23,18 +24,18 @@ public class InventoryMenu : MonoBehaviour
 
     void CloseInventory()
     {
+        inventoryIsOpen = false;
         inventoryMenuUI.SetActive(false);
-        Time.timeScale = 1f;
         InventoryIsUp = false;
-        PauseMenu.GameIsPaused = false;
+
     }
     
     void OpenInventory()
-    {
+    { 
+        inventoryIsOpen = true;
         inventoryMenuUI.SetActive(true);
-        Time.timeScale = 0f;
         InventoryIsUp = true;
-        PauseMenu.GameIsPaused = true;
+ 
     }
 
 }

@@ -4,7 +4,9 @@ public class PlayerMovement : MonoBehaviour
 { 
     public CharacterController controller;
     
-    public float speed = 12f; 
+    public float speed = 12f;
+    public float dashSpeed = 25f;
+    public float runSpeed = 20f;
     public float gravity = -9.81f; 
     public float jumpHeight = 3f;
     
@@ -14,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity;
     public bool isGrounded;
     public bool isClimbing;
+    public bool isDashing;
+    public bool isRunning;
 
     void Update()
     {
@@ -37,6 +41,16 @@ public class PlayerMovement : MonoBehaviour
         }
 
         controller.Move(move * speed * Time.deltaTime);
+
+        if (Input.GetKey(KeyCode.LeftShift) && isGrounded)
+        {
+            isRunning = !isRunning;
+        }
+
+        if (isRunning)
+        {
+            controller.Move(move * runSpeed * Time.deltaTime);
+        }
         
         if (Input.GetButtonDown("Jump") && isGrounded) 
         {

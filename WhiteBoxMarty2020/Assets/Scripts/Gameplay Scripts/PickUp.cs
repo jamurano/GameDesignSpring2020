@@ -12,7 +12,7 @@ public class PickUp : MonoBehaviour
     public void TalkToInventory()
     {
         // find inventory object after picking up object
-        inventory = GameObject.Find("Inventory");
+        inventory = GameObject.Find("Canvas");
         // tell inventory object what object it is
         inventory.GetComponent<InventoryUI>().InventoryManager(gameObject);
         // let inventory object figure out how to add object to itself

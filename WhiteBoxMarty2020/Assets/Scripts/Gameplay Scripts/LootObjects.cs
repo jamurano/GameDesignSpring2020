@@ -1,9 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LootObjects : MonoBehaviour
 {
     public List<GameObject> lootObjs;
-    
-    
 }

@@ -1939,6 +1939,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -2061,7 +2062,7 @@ Transform:
   m_GameObject: {fileID: 30891216}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.2999986, z: 0}
-  m_LocalScale: {x: 1, y: 0.35291, z: 1}
+  m_LocalScale: {x: 1, y: 1.1762137, z: 1}
   m_Children: []
   m_Father: {fileID: 1793247255}
   m_RootOrder: 0
@@ -2920,6 +2921,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1002155686}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &58065292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 3748724487396242970}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &58394700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,6 +3207,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 177651712}
+  chaseTime: 2
 --- !u!65 &61242940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3864,6 +3872,12 @@ Transform:
   m_Father: {fileID: 1701393499}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &75638998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 357286036}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &76568006
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +3923,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 181401502}
+  chaseTime: 2
 --- !u!65 &76568009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6106,6 +6121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1621240165}
+  chaseTime: 2
 --- !u!65 &145160999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7407,6 +7423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1876321910}
+  chaseTime: 2
 --- !u!65 &166336023
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7790,6 +7807,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -8374,6 +8392,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -8567,6 +8586,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -8748,6 +8768,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -9002,7 +9023,7 @@ PrefabInstance:
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
@@ -9311,6 +9332,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -9718,6 +9740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1006328917}
+  chaseTime: 2
 --- !u!65 &192848736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10041,6 +10064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1927997176}
+  chaseTime: 2
 --- !u!65 &201400389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10566,7 +10590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 243.952}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -183.2, y: -166.7}
+  m_AnchoredPosition: {x: -279, y: -166.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217935924
@@ -10930,6 +10954,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 978507803}
+  chaseTime: 2
 --- !u!65 &221609895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11097,6 +11122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 411495310}
+  chaseTime: 2
 --- !u!65 &228570337
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11424,6 +11450,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -12792,6 +12819,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -13156,6 +13184,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -13963,6 +13992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1083444362}
+  chaseTime: 2
 --- !u!65 &275503127
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14188,6 +14218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 880689295}
+  chaseTime: 2
 --- !u!65 &286739343
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14305,6 +14336,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 563432871}
+  chaseTime: 2
 --- !u!65 &287402639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14403,7 +14435,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288172533}
   m_LocalRotation: {x: -0, y: 0.96357036, z: -0, w: 0.26745498}
-  m_LocalPosition: {x: 1.1231259, y: 2.1117857, z: 7.685348}
+  m_LocalPosition: {x: 0.83, y: 2.1117857, z: 8.18}
   m_LocalScale: {x: 3.1530929, y: 3.1530945, z: 3.1530929}
   m_Children:
   - {fileID: 1941254865}
@@ -15440,6 +15472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1993051597}
+  chaseTime: 2
 --- !u!65 &310597514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15503,7 +15536,7 @@ PrefabInstance:
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
@@ -17901,7 +17934,7 @@ Transform:
   m_GameObject: {fileID: 374297805}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.3, z: 0}
-  m_LocalScale: {x: 1, y: 0.35291, z: 1}
+  m_LocalScale: {x: 1, y: 1.1762137, z: 1}
   m_Children: []
   m_Father: {fileID: 16991304}
   m_RootOrder: 0
@@ -19254,6 +19287,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -19654,6 +19688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1349047947}
+  chaseTime: 2
 --- !u!65 &396443480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19802,7 +19837,7 @@ Transform:
   m_GameObject: {fileID: 397219766}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.2999986, z: 0}
-  m_LocalScale: {x: 1, y: 0.35291, z: 1}
+  m_LocalScale: {x: 1, y: 1.1762137, z: 1}
   m_Children: []
   m_Father: {fileID: 1969981373}
   m_RootOrder: 0
@@ -20868,6 +20903,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -21434,6 +21470,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -21735,8 +21772,8 @@ GameObject:
   - component: {fileID: 419516102}
   - component: {fileID: 419516106}
   - component: {fileID: 419516105}
-  - component: {fileID: 419516104}
   - component: {fileID: 419516103}
+  - component: {fileID: 419516104}
   m_Layer: 0
   m_Name: Well
   m_TagString: Untagged
@@ -21774,8 +21811,8 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!136 &419516104
-CapsuleCollider:
+--- !u!65 &419516104
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -21784,10 +21821,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
+  m_Center: {x: 0.000000059604645, y: 0.0000014305115, z: -0.0000010430813}
 --- !u!23 &419516105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21945,8 +21981,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.5, y: 201.4}
-  m_SizeDelta: {x: -163.1, y: -355}
+  m_AnchoredPosition: {x: -56.58008, y: 200.40001}
+  m_SizeDelta: {x: -62.8, y: -355}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &420920204
 MonoBehaviour:
@@ -22655,6 +22691,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -23739,6 +23776,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 655173043}
+  chaseTime: 2
 --- !u!65 &473470517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24646,6 +24684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1822848409}
+  chaseTime: 2
 --- !u!65 &486378186
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24704,6 +24743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1330745579}
+  chaseTime: 2
 --- !u!65 &490066628
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24992,6 +25032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 30697478}
+  chaseTime: 2
 --- !u!65 &493983651
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25005,6 +25046,12 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1307858, y: 1, z: 1.3377707}
   m_Center: {x: 0.011116003, y: 0, z: 0.46196786}
+--- !u!1 &495810678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 311876740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &496691602
 GameObject:
   m_ObjectHideFlags: 0
@@ -26084,6 +26131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1739522227}
+  chaseTime: 2
 --- !u!65 &525812665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26308,6 +26356,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -27314,6 +27363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1237174931}
+  chaseTime: 2
 --- !u!65 &541012964
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28003,8 +28053,8 @@ GameObject:
   - component: {fileID: 557786569}
   - component: {fileID: 557786568}
   - component: {fileID: 557786567}
-  - component: {fileID: 557786566}
   - component: {fileID: 557786570}
+  - component: {fileID: 557786566}
   m_Layer: 0
   m_Name: Well
   m_TagString: Untagged
@@ -28012,8 +28062,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &557786566
-CapsuleCollider:
+--- !u!65 &557786566
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -28022,10 +28072,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.9999999, z: 1.0000001}
+  m_Center: {x: 0.0000005364418, y: -0.0000014305115, z: -0.00000008940696}
 --- !u!23 &557786567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28328,6 +28377,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -28781,6 +28831,12 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &567714097 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 653805994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &569593003
 GameObject:
   m_ObjectHideFlags: 0
@@ -28885,6 +28941,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1995409991}
+  chaseTime: 2
 --- !u!65 &572347424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29337,6 +29394,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -33385,6 +33443,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -34060,7 +34119,7 @@ PrefabInstance:
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
@@ -34378,6 +34437,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -34708,6 +34768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1274386857}
+  chaseTime: 2
 --- !u!65 &663038163
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35220,6 +35281,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -36117,8 +36179,8 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2.5
-  m_Radius: 0.6
+  m_Height: 1.95
+  m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.7
   m_SkinWidth: 0.08
@@ -36155,13 +36217,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 697909680}
-  speed: 20
-  gravity: -20
-  jumpHeight: 8
+  speed: 16
+  dashSpeed: 25
+  runSpeed: 20
+  gravity: -30
+  jumpHeight: 10
   groundCheck: {fileID: 143673064}
   groundDistance: 0.4
   isGrounded: 0
   isClimbing: 0
+  isDashing: 0
+  isRunning: 0
 --- !u!114 &697909683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36177,6 +36243,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: cbdba254051484a96ba834c8b65b42b7, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -36472,6 +36539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 841557713}
+  chaseTime: 2
 --- !u!65 &704658788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37196,6 +37264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1253620261}
+  chaseTime: 2
 --- !u!65 &716555400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37618,6 +37687,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -38390,6 +38460,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 253726158}
+  chaseTime: 2
 --- !u!65 &734911215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38790,6 +38861,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1263378407}
+  chaseTime: 2
 --- !u!65 &745436053
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39958,7 +40030,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -152.67004, y: -156.69998}
+  m_AnchoredPosition: {x: -248.4701, y: -156.69998}
   m_SizeDelta: {x: 112.92, y: 39.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &771130337
@@ -40178,6 +40250,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -40931,6 +41004,12 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &799631729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 187158069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &799700128
 GameObject:
   m_ObjectHideFlags: 0
@@ -41084,6 +41163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1935038138}
+  chaseTime: 2
 --- !u!65 &805517738
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -41325,6 +41405,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -42965,6 +43046,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -43175,6 +43257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 249065766}
+  chaseTime: 2
 --- !u!65 &844422634
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44663,6 +44746,12 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &877145104 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1794539962}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &877331339
 GameObject:
   m_ObjectHideFlags: 0
@@ -45058,6 +45147,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -46190,11 +46280,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 3748724487396242971}
   - {fileID: 187158070}
+  - {fileID: 3748724487396242971}
   - {fileID: 2020221281}
-  - {fileID: 311876741}
   - {fileID: 653805995}
+  - {fileID: 311876741}
   - {fileID: 1794539963}
   - {fileID: 357286037}
   - {fileID: 1135713845}
@@ -46721,7 +46811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913215705}
   m_LocalRotation: {x: -0, y: 0.97198147, z: -0.23505755, w: 0}
-  m_LocalPosition: {x: 86.2, y: 15.200001, z: 192.7}
+  m_LocalPosition: {x: 86.2, y: 20.1, z: 201.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1987159429}
@@ -47188,6 +47278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 641113065}
+  chaseTime: 2
 --- !u!65 &932076272
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47864,6 +47955,12 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &943559029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2020221280}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &946422316
 GameObject:
   m_ObjectHideFlags: 0
@@ -47909,6 +48006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 958946423}
+  chaseTime: 2
 --- !u!65 &946422319
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48150,6 +48248,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -48555,6 +48654,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -49370,7 +49470,7 @@ Transform:
   m_GameObject: {fileID: 971269892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.2999986, z: 0}
-  m_LocalScale: {x: 1, y: 0.35291, z: 1}
+  m_LocalScale: {x: 1, y: 1.1762137, z: 1}
   m_Children: []
   m_Father: {fileID: 650478404}
   m_RootOrder: 0
@@ -49433,6 +49533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1785635240}
+  chaseTime: 2
 --- !u!65 &973809587
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49674,6 +49775,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -50078,6 +50180,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -50643,6 +50746,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -51080,6 +51184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 688912930}
+  chaseTime: 2
 --- !u!65 &991282766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52132,6 +52237,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -52493,6 +52599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 2005419591}
+  chaseTime: 2
 --- !u!65 &1012771647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53183,6 +53290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1869045413}
+  chaseTime: 2
 --- !u!65 &1020877512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55781,6 +55889,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -56421,6 +56530,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -57447,6 +57557,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -57669,6 +57780,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1179530925}
+  chaseTime: 2
 --- !u!65 &1111247475
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58630,6 +58742,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -58743,6 +58856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 187848159}
+  chaseTime: 2
 --- !u!65 &1126521173
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59969,6 +60083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 720142806}
+  chaseTime: 2
 --- !u!65 &1159608339
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60135,6 +60250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1417960226}
+  chaseTime: 2
 --- !u!65 &1163138019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60934,6 +61050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 179368752}
+  chaseTime: 2
 --- !u!65 &1178914293
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61060,6 +61177,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -61452,6 +61570,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1799367447}
+  chaseTime: 2
 --- !u!65 &1192889364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62424,7 +62543,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -127.6, y: -165}
+  m_AnchoredPosition: {x: -223.40004, y: -165}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1227940385
@@ -62779,6 +62898,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -63175,6 +63295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 170758123}
+  chaseTime: 2
 --- !u!65 &1243990755
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63718,6 +63839,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -64272,6 +64394,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -64536,6 +64659,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1269623350}
   m_CullTransparentMesh: 0
+--- !u!1 &1271726825 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 690874199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1272972846
 GameObject:
   m_ObjectHideFlags: 0
@@ -64958,6 +65087,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -65071,6 +65201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 2126951321}
+  chaseTime: 2
 --- !u!65 &1275244582
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67833,6 +67964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 817100248}
+  chaseTime: 2
 --- !u!65 &1325999938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68167,6 +68299,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -68858,6 +68991,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -69196,6 +69330,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -69991,6 +70126,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -70195,6 +70331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 2036291617}
+  chaseTime: 2
 --- !u!65 &1367043639
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70729,6 +70866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1457294466}
+  chaseTime: 2
 --- !u!65 &1377354722
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71085,7 +71223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 115.615005}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -155.7, y: -107.7}
+  m_AnchoredPosition: {x: -251.50003, y: -107.7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1389927222
@@ -71727,6 +71865,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1543973118}
+  chaseTime: 2
 --- !u!65 &1411353364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72337,6 +72476,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -72677,6 +72817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 974338510}
+  chaseTime: 2
 --- !u!65 &1427325646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72827,6 +72968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1352525599}
+  chaseTime: 2
 --- !u!65 &1434274444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -72885,6 +73027,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 417499525}
+  chaseTime: 2
 --- !u!65 &1434417592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74459,6 +74602,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -77737,6 +77881,12 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
+--- !u!1 &1524932164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7971472587386415391, guid: 8771afac211a64c5cb934ef3311adeb5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1135713844}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1526507256
 GameObject:
   m_ObjectHideFlags: 0
@@ -78438,6 +78588,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -79252,6 +79403,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -79393,6 +79545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 451524171}
+  chaseTime: 2
 --- !u!65 &1554569060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81001,6 +81154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1126423350}
+  chaseTime: 2
 --- !u!65 &1585588959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81326,6 +81480,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -83390,6 +83545,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -84370,6 +84526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1600987225}
+  inventory: {fileID: 0}
 --- !u!114 &1635599581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84934,6 +85091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 953231225}
+  chaseTime: 2
 --- !u!65 &1645780202
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87149,6 +87307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 582254386}
+  chaseTime: 2
 --- !u!65 &1679503506
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87515,6 +87674,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 988813104}
+  chaseTime: 2
 --- !u!65 &1684765307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89143,7 +89303,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718066748}
   m_LocalRotation: {x: 0, y: 0.97198147, z: -0.23505755, w: 0}
-  m_LocalPosition: {x: 86.2, y: 15.200001, z: 192.7}
+  m_LocalPosition: {x: 86.2, y: 20.1, z: 201.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -90592,6 +90752,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -91802,6 +91963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 528468308}
+  chaseTime: 2
 --- !u!65 &1757189682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92213,6 +92375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1077258304}
+  chaseTime: 2
 --- !u!65 &1766715614
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93169,6 +93332,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -94253,6 +94417,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -95616,6 +95781,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -96536,6 +96702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 231570192}
+  chaseTime: 2
 --- !u!65 &1841270170
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97137,6 +97304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1551563222}
+  chaseTime: 2
 --- !u!65 &1862770128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97509,6 +97677,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -97928,6 +98097,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -98151,7 +98321,7 @@ Transform:
   m_GameObject: {fileID: 1877865088}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.2999986, z: 0}
-  m_LocalScale: {x: 1, y: 0.35291, z: 1}
+  m_LocalScale: {x: 1, y: 1.1762137, z: 1}
   m_Children: []
   m_Father: {fileID: 1833114990}
   m_RootOrder: 0
@@ -98322,6 +98492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 2088341077}
+  chaseTime: 2
 --- !u!65 &1878312288
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -99543,8 +99714,8 @@ GameObject:
   - component: {fileID: 1894546548}
   - component: {fileID: 1894546552}
   - component: {fileID: 1894546551}
-  - component: {fileID: 1894546550}
   - component: {fileID: 1894546549}
+  - component: {fileID: 1894546550}
   m_Layer: 0
   m_Name: Well (1)
   m_TagString: Untagged
@@ -99582,8 +99753,8 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!136 &1894546550
-CapsuleCollider:
+--- !u!65 &1894546550
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99592,10 +99763,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.9999999, z: 1.0000001}
+  m_Center: {x: 0.000000059604638, y: 0, z: -0.0000077188015}
 --- !u!23 &1894546551
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -100084,6 +100254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1588589209}
+  chaseTime: 2
 --- !u!65 &1900453590
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -101325,6 +101496,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -101645,8 +101817,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.2001953, y: 201.49998}
-  m_SizeDelta: {x: -179.3, y: -371.9}
+  m_AnchoredPosition: {x: -56.58008, y: 200.40005}
+  m_SizeDelta: {x: -80.18, y: -371.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1929172111
 MonoBehaviour:
@@ -101695,7 +101867,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1929304567}
   - component: {fileID: 1929304569}
-  - component: {fileID: 1929304568}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -101729,22 +101900,6 @@ RectTransform:
   m_AnchoredPosition: {x: 343.5, y: -65.7}
   m_SizeDelta: {x: -740.2, y: -195.6}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1929304568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929304566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25718bfeb60c1495da7ad75e520dfd19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthImage: {fileID: 1026360888}
-  manaImage: {fileID: 418117208}
-  coinImage: {fileID: 0}
-  pickUpType: 0
 --- !u!222 &1929304569
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -101890,6 +102045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1361891179}
+  chaseTime: 2
 --- !u!65 &1934948517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102018,6 +102174,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -102858,6 +103015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 773082401}
+  chaseTime: 2
 --- !u!65 &1947281791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105151,7 +105309,7 @@ Transform:
   m_GameObject: {fileID: 1978737460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.14, z: 0}
-  m_LocalScale: {x: 1, y: 0.28359, z: 1}
+  m_LocalScale: {x: 1, y: 0.9451771, z: 1}
   m_Children: []
   m_Father: {fileID: 1009882262}
   m_RootOrder: 0
@@ -105556,7 +105714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0.45399475, y: 10.84, z: 13.23999}
+  m_FollowOffset: {x: 0.45399475, y: 15.74, z: 21.64}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -105914,6 +106072,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -106097,6 +106256,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -106381,6 +106541,8 @@ GameObject:
   - component: {fileID: 2002252259}
   - component: {fileID: 2002252264}
   - component: {fileID: 2002252263}
+  - component: {fileID: 2002252265}
+  - component: {fileID: 2002252266}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -106486,6 +106648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1600987225}
+  inventory: {fileID: 2002252264}
 --- !u!114 &2002252264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -106498,7 +106661,63 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ce5edabe8ed744ad89776db3a10d0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inventoryIsOpen: 0
   inventoryMenuUI: {fileID: 1929304566}
+--- !u!114 &2002252265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002252258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25718bfeb60c1495da7ad75e520dfd19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthImage: {fileID: 1026360888}
+  manaImage: {fileID: 418117208}
+  coinImage: {fileID: 4948179566682993704, guid: d4931a93bfb794f8196544315691a651,
+    type: 3}
+  pickUpType: 0
+  inventorySlots:
+  - {fileID: 799631729}
+  - {fileID: 58065292}
+  - {fileID: 943559029}
+  - {fileID: 567714097}
+  - {fileID: 495810678}
+  - {fileID: 877145104}
+  - {fileID: 75638998}
+  - {fileID: 1524932164}
+  - {fileID: 1271726825}
+  inventoryButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  healthButtonPrefab: {fileID: 3168940130623172066, guid: 3c7460c8ee27844dbba2489ead945f73,
+    type: 3}
+  manaButtonPrefab: {fileID: 1356909387841190170, guid: 77f74a9c3223a4e79b4b0142276dd489,
+    type: 3}
+  inventoryUI: {fileID: 1929304566}
+--- !u!114 &2002252266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002252258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e4dc20809f24c55b500cb2e29de393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &2002790012
 GameObject:
   m_ObjectHideFlags: 0
@@ -106705,6 +106924,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -106871,8 +107091,8 @@ GameObject:
   - component: {fileID: 2011336402}
   - component: {fileID: 2011336406}
   - component: {fileID: 2011336405}
-  - component: {fileID: 2011336404}
   - component: {fileID: 2011336403}
+  - component: {fileID: 2011336404}
   m_Layer: 0
   m_Name: Well (2)
   m_TagString: Untagged
@@ -106910,8 +107130,8 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0}
   m_TimeToStationary: 0.5
---- !u!136 &2011336404
-CapsuleCollider:
+--- !u!65 &2011336404
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106920,10 +107140,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.9999999, z: 1.0000001}
+  m_Center: {x: 0.000003874302, y: 0, z: -0.00000008940695}
 --- !u!23 &2011336405
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -108201,6 +108420,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: f33388c6ee043444b8579247d5cf6fd3, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls:
@@ -109737,7 +109957,7 @@ Transform:
   m_GameObject: {fileID: 2079804357}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.2999986, z: 0}
-  m_LocalScale: {x: 1, y: 0.35291, z: 1}
+  m_LocalScale: {x: 1, y: 1.1762137, z: 1}
   m_Children: []
   m_Father: {fileID: 1869740719}
   m_RootOrder: 0
@@ -110215,6 +110435,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: b07b790843c954847b7c2e420668957a, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -111285,6 +111506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenuUI: {fileID: 1600987225}
+  inventory: {fileID: 0}
 --- !u!1 &2100463842
 GameObject:
   m_ObjectHideFlags: 0
@@ -111944,6 +112166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 1105707525}
+  chaseTime: 2
 --- !u!65 &2112659473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -112580,6 +112803,7 @@ MonoBehaviour:
   definition: {fileID: 11400000, guid: 8f5bef6e6f0ac4233bab780dad45e316, type: 2}
   maxHealth: 0
   currentHealth: 0
+  healAmount: 10
   deathEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -113785,6 +114009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyMov: {fileID: 395502920}
+  chaseTime: 2
 --- !u!1001 &1082128945786602827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -113909,7 +114134,7 @@ PrefabInstance:
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 398942645734039988, guid: 8771afac211a64c5cb934ef3311adeb5,
         type: 3}

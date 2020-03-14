@@ -13,7 +13,7 @@ public class AttackScript : MonoBehaviour
    void Update()
    {
        //Get Mouse Click
-       if (Input.GetMouseButtonDown(0))
+       if (Input.GetKeyDown(KeyCode.J))
        {
            // Attack
            if (attackIsRunning == false)
@@ -23,7 +23,7 @@ public class AttackScript : MonoBehaviour
 
        } 
        
-       if (Input.GetMouseButtonDown(1))
+       if (Input.GetKeyDown(KeyCode.K))
        {
            // Attack
            if (magicIsRunning == false)
