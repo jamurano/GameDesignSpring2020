@@ -69,12 +69,14 @@
     <Compile Include="Assets\Scripts\Gameplay Scripts\LootObjects.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\ManaData.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\ObjectDefinition.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\OpacityTrigger.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\PickUp.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AttachToPlatform.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\AttackScript.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\UseItem.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\ColorPuzzle.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryMenu.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\JemIcon.cs" />
