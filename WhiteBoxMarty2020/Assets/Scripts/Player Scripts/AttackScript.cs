@@ -4,11 +4,13 @@ using UnityEngine;
 public class AttackScript : MonoBehaviour
 {
     public GameObject hitBox;
-    public GameObject hitBoxMagic;
+    public GameObject magicInstantiationPoint;
+    public GameObject magicBlastPrefab;
 
     public bool attackIsRunning;
     public bool magicIsRunning;
-    public float hitBoxWait = 1.5f;
+    public float hitBoxWait = .5f;
+    public float magicWait = .5f;
     
    void Update()
    {
@@ -50,9 +52,8 @@ public class AttackScript : MonoBehaviour
    IEnumerator Magic()
     {
         magicIsRunning = true;
-        hitBoxMagic.SetActive(true);
-        yield return new WaitForSeconds(hitBoxWait);
-        hitBoxMagic.SetActive(false);
+        Instantiate(magicBlastPrefab, magicInstantiationPoint.transform.position, transform.rotation);
+        yield return new WaitForSeconds(magicWait);
         magicIsRunning = false;
     
     }
