@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Platform
   - Interact
+  - MagicBlast
   layers:
   - Default
   - TransparentFX

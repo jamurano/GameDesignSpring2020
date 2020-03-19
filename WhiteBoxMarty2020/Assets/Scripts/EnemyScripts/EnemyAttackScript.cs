@@ -5,7 +5,7 @@ public class EnemyAttackScript : MonoBehaviour
 {
     public GameObject enemy;
     public GameObject enemyHitBox;
-    
+
     public bool isAttacking;
     public bool canAttack = false;
 
@@ -26,7 +26,6 @@ public class EnemyAttackScript : MonoBehaviour
             // WaitForSeconds in between hits
             //}
         }
-        
     }
 
     IEnumerator EnemyAttack()
