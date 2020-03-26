@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-        if (Input.GetKey(KeyCode.LeftShift) && isGrounded)
+        if (Input.GetKey(KeyCode.RightShift) && isGrounded)
         {
             isRunning = !isRunning;
             controller.Move(move * runSpeed * Time.deltaTime);

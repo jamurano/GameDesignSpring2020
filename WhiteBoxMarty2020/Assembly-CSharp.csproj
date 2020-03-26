@@ -82,8 +82,8 @@
     <Compile Include="Assets\Scripts\Puzzle Scripts\ApplePuzzle\GrabObject.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\ApplePuzzle\InteractEvent.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\ApplePuzzle\InteractScript.cs" />
-    <Compile Include="Assets\Scripts\Puzzle Scripts\ChangeColor.cs" />
-    <Compile Include="Assets\Scripts\Puzzle Scripts\JadeManager.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\JadeStonePuzzle\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\Puzzle Scripts\JadeStonePuzzle\JadeManager.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\PrintToConsole.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryMenu.cs" />
