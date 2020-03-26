@@ -21,13 +21,15 @@ public class PlayerMovement : MonoBehaviour
     public bool isClimbing;
     public bool isDashing;
     public bool isRunning;
-
+    
     void Update()
     {
+        //Checks to see if player is touching the ground
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance);
         float x = Input.GetAxis("Horizontal"); 
         float z = Input.GetAxis("Vertical");
 
+        // normal movement if not climbing
         Vector3 move = new Vector3(0,0,0);
         if (isClimbing == false)
         {
@@ -38,13 +40,15 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        //otherwise switch W and S to up and down to climb
         else
         {
             move = new Vector3(-x,z, 0);
         }
-
+        
         controller.Move(move * speed * Time.deltaTime);
-
+       
+        //if player holds down rightShift, they will run
         if (Input.GetKey(KeyCode.RightShift) && isGrounded)
         {
             isRunning = !isRunning;
@@ -78,6 +82,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    //Climbing trigger
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Climbable")

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class AttackScript : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class AttackScript : MonoBehaviour
     public float hitBoxWait = .5f;
     public float magicWait = .5f;
 
-    public Animation slashAttack;
+    public Animation attackingAnim;
     
    void Update()
    {
@@ -43,9 +44,8 @@ public class AttackScript : MonoBehaviour
             //Turn Trigger On to detect enemy
             //Look at HitBox Script for Damage being called
             hitBox.SetActive(true);
-            //Run SlashAttack Animation
-            slashAttack = GetComponent<Animation>();
-            slashAttack.Play("SlashAttack");
+            //Run attackingAnim animation
+            attackingAnim = GetComponent<Animation>();
             //WaitForSeconds to leave hitbox on
             yield return new WaitForSeconds(hitBoxWait);
             //Turn off hitbox

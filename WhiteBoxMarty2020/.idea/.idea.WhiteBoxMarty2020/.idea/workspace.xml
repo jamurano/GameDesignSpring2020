@@ -85,12 +85,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/GrabObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/ChangeColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
       </list>
     </option>
   </component>
@@ -191,6 +191,7 @@
       <workItem from="1584553388899" duration="630000" />
       <workItem from="1584576544391" duration="6970000" />
       <workItem from="1585249070059" duration="447000" />
+      <workItem from="1585254302173" duration="1240000" />
     </task>
     <servers />
   </component>
