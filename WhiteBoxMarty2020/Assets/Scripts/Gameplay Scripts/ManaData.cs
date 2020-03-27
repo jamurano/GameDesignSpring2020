@@ -20,19 +20,20 @@ public class ManaData : MonoBehaviour
         if (currentMana <= 0)
         { 
             //disable magic use
-            GetComponent<AttackScript>().magicIsRunning = false;
+            GetComponent<AttackScript>().canUseMagic = false;
         }
     }
 
     public void ManaDecrease(int decrease)
     {
-        manaDecreaseEvent.Invoke();
         currentMana = currentMana - decrease;
-
+        manaDecreaseEvent.Invoke();
     }
 
     public void ManaIncrease()
     {
         currentMana = currentMana + manaIncreaseAmount;
+        GetComponent<AttackScript>().canUseMagic = true;
+        manaDecreaseEvent.Invoke();
     }
 }

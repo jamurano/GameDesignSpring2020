@@ -25,13 +25,14 @@ public class HealthData : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        onTakeDamageEvent.Invoke();
         currentHealth = currentHealth - damage;
+        onTakeDamageEvent.Invoke();
     }
 
     public void Heal()
     {
         currentHealth = currentHealth + healAmount;
+        onTakeDamageEvent.Invoke();
     }
 
 }

@@ -15,8 +15,7 @@ public class UseItem : MonoBehaviour
             player = GameObject.Find("First Person Player");
             player.GetComponent<ManaData>().ManaIncrease();
         }
-
-
+        
         Destroy(gameObject);
     }
 }

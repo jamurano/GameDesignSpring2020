@@ -10,12 +10,14 @@ public class AttackScript : MonoBehaviour
 
     public bool attackIsRunning;
     public bool magicIsRunning;
+    public bool canUseMagic = true;
+    
     public float hitBoxWait = .5f;
     public float magicWait = .5f;
 
-    public Animation attackingAnim;
-    
-   void Update()
+    public Animator weaponAnim;
+
+    void Update()
    {
        //Get Mouse Click
        if (Input.GetKeyDown(KeyCode.J))
@@ -28,7 +30,7 @@ public class AttackScript : MonoBehaviour
 
        } 
        
-       if (Input.GetKeyDown(KeyCode.K))
+       if (Input.GetKeyDown(KeyCode.K) && canUseMagic)
        {
            // Attack
            if (magicIsRunning == false)
@@ -45,7 +47,7 @@ public class AttackScript : MonoBehaviour
             //Look at HitBox Script for Damage being called
             hitBox.SetActive(true);
             //Run attackingAnim animation
-            attackingAnim = GetComponent<Animation>();
+            weaponAnim.SetTrigger("attackingAnim");
             //WaitForSeconds to leave hitbox on
             yield return new WaitForSeconds(hitBoxWait);
             //Turn off hitbox
@@ -58,6 +60,7 @@ public class AttackScript : MonoBehaviour
     {
         magicIsRunning = true;
         Instantiate(magicBlastPrefab, magicInstantiationPoint.transform.position, transform.rotation);
+        GetComponent<ManaData>().ManaDecrease(5);
         yield return new WaitForSeconds(magicWait);
         magicIsRunning = false;
     
