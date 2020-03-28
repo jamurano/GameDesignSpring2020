@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -8247493281763380560}
   - component: {fileID: -5731714461353639331}
   - component: {fileID: -2599667004040129235}
+  - component: {fileID: -2506102362143499924}
   m_Layer: 0
   m_Name: Health 1
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -5731714461353639331}
+      - m_Target: {fileID: -2506102362143499924}
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
@@ -160,3 +161,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventory: {fileID: 0}
   pickUps: 1
+--- !u!114 &-2506102362143499924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3168940130623172066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6701a67cefbf7bf418bbad8642c0a8ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}

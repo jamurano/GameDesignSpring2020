@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Player Scripts\MagicBlast.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\MagicBlastHitBox.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\ResetPlayer.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\UseItem.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\ApplePuzzle\BoolEvents.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\ApplePuzzle\GrabObject.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\Scripts\Puzzle Scripts\PrintToConsole.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\RotatingPuzzle\Switch.cs" />
     <Compile Include="Assets\Scripts\Puzzle Scripts\RotatingPuzzle\TriggerLinedUp.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\ClickItem.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\HealthBar.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryMenu.cs" />
@@ -102,6 +104,7 @@
     <Compile Include="Assets\Scripts\UI Scripts\ManaBar.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\QuickSelectMenu.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\UseInventoryItem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

@@ -12,12 +12,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -32,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/JemIcon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/TriggerLinedUp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -44,10 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/HealthData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HitBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/CollectObj.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyWander.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemySeePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/EnemyDrop.cs" />
@@ -95,6 +95,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" />
       </list>
     </option>
   </component>
@@ -197,6 +201,7 @@
       <workItem from="1585249070059" duration="447000" />
       <workItem from="1585254302173" duration="1240000" />
       <workItem from="1585260207450" duration="6293000" />
+      <workItem from="1585426062440" duration="4417000" />
     </task>
     <servers />
   </component>
