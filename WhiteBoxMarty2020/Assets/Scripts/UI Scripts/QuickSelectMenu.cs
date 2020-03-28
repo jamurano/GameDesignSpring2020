@@ -27,22 +27,40 @@ public class QuickSelectMenu : MonoBehaviour
             {
                 AddToUI(1);
             }
-
-            // Increase either Mana or Health amount
         }
-
+        
+        // use item from second quickSelectSlot
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            // use item from second quickSelectSlot
-            //destroy gameObject
-            // Increase either Mana or Health amount
+            if (itemTwo != null)
+            {
+                itemTwo.GetComponent<UseItem>().OnClick();
+                //destroy gameObject
+                Destroy(itemTwo);
+                itemOne = null;
+            }
+            
+            else if (quickSelectTextBox.activeSelf == true)
+            {
+                AddToUI(2);
+            }
         }
 
-        if (Input.GetKeyDown((KeyCode.Alpha3)))
+        if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             // use item from third quickSelectSlot
-            //destroy gameObject
-            // Increase either Mana or Health amount
+            if (itemThree != null)
+            {
+                itemThree.GetComponent<UseItem>().OnClick();
+                //destroy gameObject
+                Destroy(itemThree);
+                itemThree = null;
+            }
+            
+            else if (quickSelectTextBox.activeSelf == true)
+            {
+                AddToUI(3);
+            }
         }
     }
 
@@ -62,6 +80,18 @@ public class QuickSelectMenu : MonoBehaviour
         {
             GameObject newButton = Instantiate(buttonToAdd, slotOne.transform.position, Quaternion.identity);
             newButton.transform.SetParent(slotOne.transform);
+        }
+
+        if (slotNumber == 2)
+        {
+            GameObject newButton = Instantiate(buttonToAdd, slotTwo.transform.position, Quaternion.identity);
+            newButton.transform.SetParent(slotTwo.transform);
+        }
+
+        if (slotNumber == 3)
+        {
+            GameObject newButton = Instantiate(buttonToAdd, slotThree.transform.position, Quaternion.identity);
+            newButton.transform.SetParent(slotThree.transform);
         }
         
         Destroy(lastButtonClicked);

@@ -93,12 +93,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
       </list>
     </option>
   </component>
@@ -201,7 +201,7 @@
       <workItem from="1585249070059" duration="447000" />
       <workItem from="1585254302173" duration="1240000" />
       <workItem from="1585260207450" duration="6293000" />
-      <workItem from="1585426062440" duration="4417000" />
+      <workItem from="1585426062440" duration="8628000" />
     </task>
     <servers />
   </component>
