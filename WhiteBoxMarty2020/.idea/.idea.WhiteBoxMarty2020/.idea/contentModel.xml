@@ -20,7 +20,6 @@
             <e p="LootObjects.cs" t="Include" />
             <e p="ManaData.cs" t="Include" />
             <e p="ObjectDefinition.cs" t="Include" />
-            <e p="OpacityTrigger.cs" t="Include" />
             <e p="PickUp.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
           </e>
@@ -53,6 +52,7 @@
           <e p="UI Scripts" t="Include">
             <e p="ClickItem.cs" t="Include" />
             <e p="Dialogue.cs" t="Include" />
+            <e p="GameOver.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
             <e p="InventoryMenu.cs" t="Include" />
             <e p="InventoryUI.cs" t="Include" />

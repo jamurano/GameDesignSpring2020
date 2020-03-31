@@ -26,6 +26,7 @@ public class QuickSelectMenu : MonoBehaviour
             else if (quickSelectTextBox.activeSelf == true)
             {
                 AddToUI(1);
+                quickSelectTextBox.SetActive(false);
             }
         }
         
@@ -43,6 +44,7 @@ public class QuickSelectMenu : MonoBehaviour
             else if (quickSelectTextBox.activeSelf == true)
             {
                 AddToUI(2);
+                quickSelectTextBox.SetActive(false);
             }
         }
 
@@ -60,6 +62,7 @@ public class QuickSelectMenu : MonoBehaviour
             else if (quickSelectTextBox.activeSelf == true)
             {
                 AddToUI(3);
+                quickSelectTextBox.SetActive(false);
             }
         }
     }

@@ -8,16 +8,10 @@ public class ChangeColor : MonoBehaviour
 
     public Color colorStart;
     public Color colorEnd;
-    
-    public void OnTriggerEnter(Collider other)
-    {
-        //if MagicBlast hits object
-        //then turn into brighter color
-        
-    }
 
     public void SetColor()
     {
+        print("Changing Color");
         GetComponent<Renderer>().material.color = colorEnd;
     }
 

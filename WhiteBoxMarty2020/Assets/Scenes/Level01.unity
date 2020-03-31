@@ -1444,17 +1444,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 15300711}
-        m_MethodName: Heal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 306696397}
         m_MethodName: AddToPlayerOrder
         m_Mode: 2
@@ -2168,7 +2157,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &29877065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22605,17 +22594,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 408799861}
-        m_MethodName: Heal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 306696397}
         m_MethodName: AddToPlayerOrder
         m_Mode: 2
@@ -40727,6 +40705,7 @@ GameObject:
   - component: {fileID: 697909688}
   - component: {fileID: 697909689}
   - component: {fileID: 697909690}
+  - component: {fileID: 697909691}
   m_Layer: 8
   m_Name: First Person Player
   m_TagString: Player
@@ -40760,7 +40739,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697909679}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 85.61, y: 25, z: -91.4}
+  m_LocalPosition: {x: -27.1, y: 17.74, z: 16.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 143673064}
@@ -40967,6 +40946,22 @@ MonoBehaviour:
   respawnPoint: {fileID: 1597422035}
   healthBar: {fileID: 181132851}
   manaBar: {fileID: 2074232541}
+--- !u!208 &697909691
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697909679}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.5, z: 0.5}
+  m_MoveThreshold: 0.5
+  m_Carve: 1
+  m_CarveOnlyStationary: 0
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &701157362
 GameObject:
   m_ObjectHideFlags: 0
@@ -46542,17 +46537,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 792103393}
         m_MethodName: SetColor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 792103394}
-        m_MethodName: Heal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -53093,7 +53077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913215705}
   m_LocalRotation: {x: -0, y: 0.97583425, z: -0.21851201, w: 0}
-  m_LocalPosition: {x: 86.063995, y: 49.76, z: -64.8}
+  m_LocalPosition: {x: -26.646006, y: 42.5, z: 42.699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1987159429}
@@ -63700,17 +63684,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1071079505}
         m_MethodName: SetColor
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1071079506}
-        m_MethodName: Heal
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -102130,17 +102103,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1695864196}
-        m_MethodName: Heal
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 306696397}
         m_MethodName: AddToPlayerOrder
         m_Mode: 2
@@ -103247,7 +103209,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718066748}
   m_LocalRotation: {x: 0, y: 0.97583425, z: -0.21851201, w: 0}
-  m_LocalPosition: {x: 86.063995, y: 49.76, z: -64.8}
+  m_LocalPosition: {x: -26.646006, y: 42.5, z: 42.699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -122328,9 +122290,9 @@ MonoBehaviour:
   quickSelectTextBox: {fileID: 71236496}
   lastButtonClicked: {fileID: 0}
   buttonToAdd: {fileID: 0}
-  manaButton: {fileID: 1356909387841190170, guid: 77f74a9c3223a4e79b4b0142276dd489,
+  manaButton: {fileID: 1356909387841190170, guid: 79baa2dfab96393499a095269214b50d,
     type: 3}
-  healthButton: {fileID: 3168940130623172066, guid: 3c7460c8ee27844dbba2489ead945f73,
+  healthButton: {fileID: 3168940130623172066, guid: d59ea3d0343a2084bbdaa3e32da85e48,
     type: 3}
 --- !u!1 &2002790012
 GameObject:
