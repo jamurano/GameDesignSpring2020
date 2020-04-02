@@ -8,13 +8,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7344995594184853733}
+  - component: {fileID: 7445175225696412186}
   - component: {fileID: 3497917815897846717}
   - component: {fileID: 1599740899611819100}
   - component: {fileID: 4514904797193019790}
   - component: {fileID: 291874746}
   - component: {fileID: 5369686892529857410}
   - component: {fileID: 435452729680404473}
+  - component: {fileID: 113726542336694331}
   m_Layer: 12
   m_Name: Mana
   m_TagString: Untagged
@@ -22,20 +23,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7344995594184853733
-Transform:
+--- !u!224 &7445175225696412186
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3254200981187344460}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111.94853, y: 169, z: -7.237793}
+  m_LocalPosition: {x: 0, y: 0, z: -7.237793}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 111.94853, y: 169}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!33 &3497917815897846717
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -169,3 +175,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!222 &113726542336694331
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3254200981187344460}
+  m_CullTransparentMesh: 0
