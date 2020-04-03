@@ -1,6 +1,6 @@
 /target:library
 /nowarn:0169
-/out:Temp/Unity.Analytics.DataPrivacy.dll
+/out:Temp/Assembly-CSharp.dll
 /debug:portable
 /optimize-
 /nostdlib+
@@ -66,20 +66,18 @@
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll"
+/reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+/reference:Library/ScriptAssemblies/Cinemachine.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+/reference:Library/ScriptAssemblies/Unity.Timeline.dll
+/reference:Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+/reference:Library/ScriptAssemblies/com.unity.cinemachine.editor.dll
+/reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+/reference:Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
 /reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
-/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll"
-/reference:Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
-/reference:C:/Users/Jessica/Desktop/GitHub/Marty2020Scripting/GameDesignSpring2020/WhiteBoxMarty2020/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll
 /reference:C:/Users/Jessica/Desktop/GitHub/Marty2020Scripting/GameDesignSpring2020/WhiteBoxMarty2020/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
 /reference:C:/Users/Jessica/Desktop/GitHub/Marty2020Scripting/GameDesignSpring2020/WhiteBoxMarty2020/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
 /reference:C:/Users/Jessica/Desktop/GitHub/Marty2020Scripting/GameDesignSpring2020/WhiteBoxMarty2020/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
-/reference:C:/Users/Jessica/Desktop/GitHub/Marty2020Scripting/GameDesignSpring2020/WhiteBoxMarty2020/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll
 /reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
@@ -299,6 +297,78 @@
 /define:UNITY_TEAM_LICENSE
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-C:\Users\Jessica\Desktop\GitHub\Marty2020Scripting\GameDesignSpring2020\WhiteBoxMarty2020\Library\PackageCache\com.unity.analytics@3.3.2\DataPrivacy\AssemblyInfo.cs
-C:\Users\Jessica\Desktop\GitHub\Marty2020Scripting\GameDesignSpring2020\WhiteBoxMarty2020\Library\PackageCache\com.unity.analytics@3.3.2\DataPrivacy\DataPrivacy.cs
-C:\Users\Jessica\Desktop\GitHub\Marty2020Scripting\GameDesignSpring2020\WhiteBoxMarty2020\Library\PackageCache\com.unity.analytics@3.3.2\DataPrivacy\DataPrivacyButton.cs
+Assets\Scripts\EnemyScripts\EnemyAttackScript.cs
+Assets\Scripts\EnemyScripts\EnemyMovement.cs
+Assets\Scripts\EnemyScripts\SawPlayer.cs
+"Assets\Scripts\Gameplay Scripts\HealthData.cs"
+"Assets\Scripts\Gameplay Scripts\HitBox.cs"
+"Assets\Scripts\Gameplay Scripts\InventorySlot.cs"
+"Assets\Scripts\Gameplay Scripts\LootData.cs"
+"Assets\Scripts\Gameplay Scripts\LootObjects.cs"
+"Assets\Scripts\Gameplay Scripts\ManaData.cs"
+"Assets\Scripts\Gameplay Scripts\ObjectDefinition.cs"
+"Assets\Scripts\Gameplay Scripts\OpacityShaders.cs"
+"Assets\Scripts\Gameplay Scripts\OpacityTrigger.cs"
+"Assets\Scripts\Gameplay Scripts\PickUp.cs"
+"Assets\Scripts\Gameplay Scripts\TriggerEvents.cs"
+"Assets\Scripts\Player Scripts\AttachToPlatform.cs"
+"Assets\Scripts\Player Scripts\AttackScript.cs"
+"Assets\Scripts\Player Scripts\MagicBlast.cs"
+"Assets\Scripts\Player Scripts\MagicBlastHitBox.cs"
+"Assets\Scripts\Player Scripts\PlayerMovement.cs"
+"Assets\Scripts\Player Scripts\ResetPlayer.cs"
+"Assets\Scripts\Player Scripts\UseItem.cs"
+"Assets\Scripts\Puzzle Scripts\ApplePuzzle\BoolEvents.cs"
+"Assets\Scripts\Puzzle Scripts\ApplePuzzle\GrabObject.cs"
+"Assets\Scripts\Puzzle Scripts\ApplePuzzle\InteractEvent.cs"
+"Assets\Scripts\Puzzle Scripts\ApplePuzzle\InteractScript.cs"
+"Assets\Scripts\Puzzle Scripts\JadeStonePuzzle\ChangeColor.cs"
+"Assets\Scripts\Puzzle Scripts\JadeStonePuzzle\JadeManager.cs"
+"Assets\Scripts\Puzzle Scripts\PrintToConsole.cs"
+"Assets\Scripts\Puzzle Scripts\RotatingPuzzle\Switch.cs"
+"Assets\Scripts\Puzzle Scripts\RotatingPuzzle\TriggerLinedUp.cs"
+"Assets\Scripts\UI Scripts\ClickItem.cs"
+"Assets\Scripts\UI Scripts\Dialogue.cs"
+"Assets\Scripts\UI Scripts\GameOver.cs"
+"Assets\Scripts\UI Scripts\HealthBar.cs"
+"Assets\Scripts\UI Scripts\InventoryMenu.cs"
+"Assets\Scripts\UI Scripts\InventoryUI.cs"
+"Assets\Scripts\UI Scripts\JemIcon.cs"
+"Assets\Scripts\UI Scripts\MainMenu.cs"
+"Assets\Scripts\UI Scripts\ManaBar.cs"
+"Assets\Scripts\UI Scripts\PauseMenu.cs"
+"Assets\Scripts\UI Scripts\QuickSelectMenu.cs"
+"Assets\Scripts\UI Scripts\UseInventoryItem.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark01_UGUI.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark02.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark03.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\Benchmark04.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\CameraController.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\ChatController.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\EnvMapAnimator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\ObjectSpin.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\ShaderPropAnimator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\SimpleScript.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\SkewTextExample.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TeleType.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TextConsoleSimulator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshProFloatingText.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TextMeshSpawner.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_DigitValidator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_ExampleScript_01.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_FrameRateCounter.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_PhoneNumberValidator.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventCheck.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextEventHandler.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextInfoDebugTool.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_A.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_TextSelector_B.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMP_UiFrameRateCounter.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\TMPro_InstructionOverlay.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexColorCycler.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexJitter.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeA.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexShakeB.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\VertexZoom.cs"
+"Assets\TextMesh Pro\Examples & Extras\Scripts\WarpTextExample.cs"
