@@ -13,36 +13,37 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/DataStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HitBox.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/JadeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ObjectDefinition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityShaders.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/TriggerLinedUp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/JadeManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/ChangeColor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityShaders.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/JemIcon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/TriggerLinedUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttachToPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -52,23 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TreasureChests.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootDrops.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InputData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryMenuUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/QuickSelectMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventoryMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PlatformScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttachToPlatform.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/PickUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootObjects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ObjectDefinition.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/JemIcon.cs" />
@@ -103,6 +87,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/JadeManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AddPointsList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AiBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AiBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AiBrain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AiHunt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AiIdle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AiPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AddPointsList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AiBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AiBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AiBrain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AiHunt.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AiIdle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/AiPatrol.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyAI/GameActionHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/DataStorage.cs" />
       </list>
     </option>
   </component>
@@ -208,6 +209,7 @@
       <workItem from="1585426062440" duration="8628000" />
       <workItem from="1585692929885" duration="3530000" />
       <workItem from="1585875933501" duration="4870000" />
+      <workItem from="1585939010301" duration="4206000" />
     </task>
     <servers />
   </component>
