@@ -10,6 +10,7 @@ public class MagicBlastHitBox : MonoBehaviour
         if (other.GetComponent<HealthData>())
         {
             other.GetComponent<HealthData>().TakeDamage(damage);
+            print(gameObject);
             Destroy(gameObject);
         }
     }

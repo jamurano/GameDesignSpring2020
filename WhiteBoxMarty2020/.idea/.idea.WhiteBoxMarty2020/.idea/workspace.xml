@@ -30,10 +30,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ObjectDefinition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/GameOver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityShaders.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/JemIcon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,8 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/EnemyDrop.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/EnemyDrops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TreasureChests.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/LootDrops.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" />
@@ -73,15 +73,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/JemIcon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/PrintToConsole.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/Dialogue.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/InteractScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/InteractEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/BoolEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/GrabObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/ChangeColor.cs" />
@@ -101,6 +98,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/ChangeColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityShaders.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/JadeManager.cs" />
       </list>
     </option>
   </component>
@@ -204,7 +206,8 @@
       <workItem from="1585254302173" duration="1240000" />
       <workItem from="1585260207450" duration="6293000" />
       <workItem from="1585426062440" duration="8628000" />
-      <workItem from="1585692929885" duration="2930000" />
+      <workItem from="1585692929885" duration="3530000" />
+      <workItem from="1585875933501" duration="3073000" />
     </task>
     <servers />
   </component>

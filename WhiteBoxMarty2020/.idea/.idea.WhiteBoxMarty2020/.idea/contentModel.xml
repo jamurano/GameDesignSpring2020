@@ -20,6 +20,8 @@
             <e p="LootObjects.cs" t="Include" />
             <e p="ManaData.cs" t="Include" />
             <e p="ObjectDefinition.cs" t="Include" />
+            <e p="OpacityShaders.cs" t="Include" />
+            <e p="OpacityTrigger.cs" t="Include" />
             <e p="PickUp.cs" t="Include" />
             <e p="TriggerEvents.cs" t="Include" />
           </e>

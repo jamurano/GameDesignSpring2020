@@ -11,7 +11,7 @@ public class JadeManager : MonoBehaviour
     
     public void CheckOrder()
     {
-        for (int i = 0; i < jadeOrder.Count; i++)
+        for (int i = 0; i < playerOrder.Count; i++)
         {
             //if jadeorder and playerorder are the same
             if (jadeOrder[i] == playerOrder[i])
