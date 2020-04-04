@@ -14,6 +14,8 @@ public class AttackScript : MonoBehaviour
     public float hitBoxWait = .5f;
     public float magicWait = .5f;
 
+    public float noSpamWait = .5f;
+    
     public Animator weaponAnim;
 
     void Update()
@@ -53,6 +55,7 @@ public class AttackScript : MonoBehaviour
             hitBox.SetActive(false);
             attackIsRunning = false;
             //WaitForSeconds to not spam button
+            yield return new WaitForSeconds(noSpamWait);
         }
 
    IEnumerator Magic()

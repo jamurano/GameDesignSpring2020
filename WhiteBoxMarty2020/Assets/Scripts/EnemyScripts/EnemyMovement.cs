@@ -56,4 +56,9 @@ public class EnemyMovement : MonoBehaviour
             // else wander 
         }
     }
+
+    public void OnEnemyAttacked()
+    {
+        currentState = enemyStates.FOLLOW;
+    }
 }

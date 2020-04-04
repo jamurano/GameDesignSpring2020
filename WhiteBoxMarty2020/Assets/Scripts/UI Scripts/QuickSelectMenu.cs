@@ -83,18 +83,21 @@ public class QuickSelectMenu : MonoBehaviour
         {
             GameObject newButton = Instantiate(buttonToAdd, slotOne.transform.position, Quaternion.identity);
             newButton.transform.SetParent(slotOne.transform);
+            itemOne = newButton;
         }
 
         if (slotNumber == 2)
         {
             GameObject newButton = Instantiate(buttonToAdd, slotTwo.transform.position, Quaternion.identity);
             newButton.transform.SetParent(slotTwo.transform);
+            itemTwo = newButton;
         }
 
         if (slotNumber == 3)
         {
             GameObject newButton = Instantiate(buttonToAdd, slotThree.transform.position, Quaternion.identity);
             newButton.transform.SetParent(slotThree.transform);
+            itemThree = newButton;
         }
         
         Destroy(lastButtonClicked);

@@ -78,6 +78,7 @@
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyAttackScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\SawPlayer.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\DestroyObj.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\HealthData.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\HitBox.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\InventorySlot.cs" />

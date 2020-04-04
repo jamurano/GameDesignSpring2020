@@ -50,6 +50,7 @@ MonoBehaviour:
   canAttack: 0
   attackWait: 1
   attackCycleWait: 1
+  attackingAnim: {fileID: 1970375561}
 --- !u!65 &196644931651592922
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -197,6 +198,7 @@ GameObject:
   - component: {fileID: 4394710098584222098}
   - component: {fileID: 196644933223365850}
   - component: {fileID: 196644933223365851}
+  - component: {fileID: -1351239225996481942}
   m_Layer: 10
   m_Name: EnemyABasic
   m_TagString: Enemy
@@ -211,7 +213,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196644933223365840}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 85.7, y: 3.89, z: 96.19}
   m_LocalScale: {x: 1.2148801, y: 2.8, z: 1.2}
   m_Children:
@@ -309,11 +311,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: -1351239225996481942}
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onTakeDamageEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 196644933223365850}
+        m_MethodName: OnEnemyAttacked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &4394710098584222098
@@ -376,6 +400,18 @@ NavMeshAgent:
   m_BaseOffset: 0.49999997
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &-1351239225996481942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196644933223365840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b461b3a9d0b9a944af129564c806ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &196644933271647885
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +423,7 @@ GameObject:
   - component: {fileID: 196644933271647922}
   - component: {fileID: 196644933271647921}
   - component: {fileID: 196644933271647920}
+  - component: {fileID: 1970375561}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -402,7 +439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196644933271647885}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.7083384, y: 0, z: 1.5500003}
+  m_LocalPosition: {x: 0.7083384, y: 0, z: 1.55}
   m_LocalScale: {x: 0.36051014, y: 0.84119076, z: 0.15450443}
   m_Children:
   - {fileID: 196644931724317579}
@@ -454,3 +491,22 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!95 &1970375561
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196644933271647885}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 937fd801fe5c5f44c934c5f6b501e65c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

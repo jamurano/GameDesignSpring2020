@@ -11,6 +11,8 @@ public class EnemyAttackScript : MonoBehaviour
 
     public float attackWait;
     public float attackCycleWait;
+
+    public Animator attackingAnim;
     
     void OnTriggerEnter(Collider other)
     {
@@ -32,6 +34,7 @@ public class EnemyAttackScript : MonoBehaviour
     {
         //Turn Hitbox On to detect enemy
         enemyHitBox.SetActive(true);
+        attackingAnim.SetTrigger("Attacking");
         //Look at HitBox Script for Damage being called;
         //WaitForSeconds to leave hitbox on
         yield return new WaitForSeconds(attackWait);

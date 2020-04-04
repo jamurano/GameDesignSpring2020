@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 8422122858500387146}
   - component: {fileID: 8422122858500387147}
   - component: {fileID: 8422122858500387140}
+  - component: {fileID: -5302669897638748365}
   m_Layer: 10
   m_Name: EnemyBMage
   m_TagString: Enemy
@@ -30,9 +31,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8422122858500387148}
-  m_LocalRotation: {x: -0, y: -0.3189742, z: -0, w: 0.94776344}
+  m_LocalRotation: {x: 0, y: -0.31897587, z: 0, w: 0.94776285}
   m_LocalPosition: {x: 72.9, y: 3.89, z: 86.3}
-  m_LocalScale: {x: 1.2148801, y: 2.8, z: 1.2}
+  m_LocalScale: {x: 1.2148803, y: 2.8, z: 1.2}
   m_Children:
   - {fileID: 8422122859276539835}
   - {fileID: 8422122858885261168}
@@ -128,11 +129,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: -5302669897638748365}
+        m_MethodName: Destroy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   onTakeDamageEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8422122858500387146}
+        m_MethodName: OnEnemyAttacked
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &8422122858500387146
@@ -195,6 +218,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lootManager: {fileID: 0}
+--- !u!114 &-5302669897638748365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8422122858500387148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b461b3a9d0b9a944af129564c806ee1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8422122858760179266
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,6 +339,7 @@ MonoBehaviour:
   canAttack: 0
   attackWait: 1
   attackCycleWait: 1
+  attackingAnim: {fileID: 9178245606307481381}
 --- !u!65 &8422122858885261167
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -328,6 +364,7 @@ GameObject:
   - component: {fileID: 8422122859276539835}
   - component: {fileID: 8422122859276539833}
   - component: {fileID: 8422122859276539834}
+  - component: {fileID: 9178245606307481381}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -395,6 +432,25 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!95 &9178245606307481381
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8422122859276539836}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2cf1ac786e33d5c4cb46d98626f00a77, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8422122859885790983
 GameObject:
   m_ObjectHideFlags: 0
