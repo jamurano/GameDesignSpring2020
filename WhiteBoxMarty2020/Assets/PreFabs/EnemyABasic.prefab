@@ -373,6 +373,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   currentWanderPoint: {fileID: 0}
   navMeshAgent: {fileID: 0}
   player: {fileID: 0}

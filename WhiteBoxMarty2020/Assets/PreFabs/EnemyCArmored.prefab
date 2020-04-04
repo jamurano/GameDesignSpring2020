@@ -249,7 +249,7 @@ Transform:
   m_GameObject: {fileID: 2265235949529767086}
   m_LocalRotation: {x: 0, y: 0.27170923, z: 0, w: 0.96237946}
   m_LocalPosition: {x: 95.22, y: 3.89, z: 96.19}
-  m_LocalScale: {x: 1.2148806, y: 2.8, z: 1.2}
+  m_LocalScale: {x: 1.214881, y: 2.8, z: 1.2}
   m_Children:
   - {fileID: 2265235949227688772}
   - {fileID: 2265235950037564999}
@@ -388,6 +388,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   wanderPoint:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
