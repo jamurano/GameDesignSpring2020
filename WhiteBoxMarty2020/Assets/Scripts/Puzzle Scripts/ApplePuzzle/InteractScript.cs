@@ -19,8 +19,11 @@ public class InteractScript : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        popUpBox.SetActive(false);
-        canInteract = false;
+        if (other.tag == "Interact")
+        {
+            popUpBox.SetActive(false);
+            canInteract = false;
+        }
     }
     //hello
     public void Update()

@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8422122858500387147}
   - component: {fileID: 8422122858500387140}
   - component: {fileID: -5302669897638748365}
+  - component: {fileID: 3302201880155958246}
   m_Layer: 10
   m_Name: EnemyBMage
   m_TagString: Enemy
@@ -156,6 +157,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 3302201880155958246}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &8422122858500387146
@@ -235,6 +247,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b461b3a9d0b9a944af129564c806ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3302201880155958246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8422122858500387148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2654f368570b343b429c5e0f35893c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorStart: {r: 0.34117648, g: 0.40000004, b: 0.5372549, a: 1}
+  colorEnd: {r: 0.8980392, g: 0.21568628, b: 0.41568628, a: 0}
 --- !u!1 &8422122858760179266
 GameObject:
   m_ObjectHideFlags: 0

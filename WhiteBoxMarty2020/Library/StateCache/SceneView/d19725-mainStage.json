@@ -1,9 +1,1 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-73.86463165283203,"y":-325.5447692871094,"z":139.8363037109375},"rotation":{"x":0.3922916650772095,"y":-0.590752124786377,"z":0.3824370801448822,"w":0.5944064259529114},"size":422.7685241699219,"orthographic":false}
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":54.84278106689453,"y":5.519660949707031,"z":79.6333999633789},"rotation":{"x":0.029954543337225915,"y":0.9447773098945618,"z":-0.3141551613807678,"w":0.09049259126186371},"size":14.683929443359375,"orthographic":false}
->>>>>>> Stashed changes
-=======
-﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-19.14434814453125,"y":-123.44940185546875,"z":-389.583984375},"rotation":{"x":0.13133561611175538,"y":0.8623692393302918,"z":-0.4167441725730896,"w":0.26136013865470889},"size":625.2894897460938,"orthographic":false}
->>>>>>> Stashed changes
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-62.17732620239258,"y":48.021690368652347,"z":-157.69650268554688},"rotation":{"x":0.17531049251556397,"y":-0.8208412528038025,"z":0.3158941864967346,"w":0.4460809826850891},"size":59.02077102661133,"orthographic":false}

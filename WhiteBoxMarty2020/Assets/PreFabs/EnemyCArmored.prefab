@@ -233,6 +233,7 @@ GameObject:
   - component: {fileID: 2265235949529767087}
   - component: {fileID: 2265235949529785174}
   - component: {fileID: 777231236198959588}
+  - component: {fileID: 7346691833436836575}
   m_Layer: 10
   m_Name: EnemyCArmored
   m_TagString: Enemy
@@ -451,6 +452,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b461b3a9d0b9a944af129564c806ee1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7346691833436836575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2265235949529767086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2654f368570b343b429c5e0f35893c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorStart: {r: 0.7607844, g: 0.74509805, b: 0.5176471, a: 1}
+  colorEnd: {r: 0.8980392, g: 0.21568628, b: 0.41568628, a: 0}
 --- !u!1 &2265235950037564998
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,6 +15,9 @@ public class InventoryUI : MonoBehaviour
     public GameObject manaButtonPrefab;
     public GameObject inventoryUI;
 
+    public int coinCounter = 0;
+    public Text coinUI;
+
     public void InventoryManager(GameObject pickUp)
     {
         //find out from PickUp what object it is
@@ -23,8 +26,26 @@ public class InventoryUI : MonoBehaviour
         AddToInventory(pickUpType);
     }
 
+    public void BuyPotion(GameObject potion)
+    {
+        if (coinCounter >= 25)
+        {
+            coinCounter -= 25;
+            //find out from PickUp what object it is
+            pickUpType = potion.GetComponent<PickUp>().pickUps;
+            //turn on correlating image and value into InventorySlot
+            AddToInventory(pickUpType);
+        }
+    }
+
     public void AddToInventory(PickUp.pickUpType type)
     {
+        if (type == PickUp.pickUpType.COINS)
+        {
+            coinCounter+= 5;
+            coinUI.text = coinCounter.ToString();
+            return;
+        }
         //index is temp variable, that tells us where in the list we want to add next item
         int index = 0;
         // looping through inventory buttons list to find empty slot
@@ -46,16 +67,20 @@ public class InventoryUI : MonoBehaviour
         {
             //Do mana stuff
             buttonToAdd = manaButtonPrefab;
+            // instantiate prefabe and place it in inventory
+            inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
+            //making prefab appear in inventory menu
+            inventoryButtons[index].transform.SetParent(inventoryUI.transform);
         }
         //if pickup is health, then use health prefab
         if (type == PickUp.pickUpType.HEALTH)
         {
             //Do health stuff
             buttonToAdd = healthButtonPrefab;
+            // instantiate prefabe and place it in inventory
+            inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
+            //making prefab appear in inventory menu
+            inventoryButtons[index].transform.SetParent(inventoryUI.transform);
         }
-        // instantiate prefabe and place it in inventory
-        inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
-        //making prefab appear in inventory menu
-        inventoryButtons[index].transform.SetParent(inventoryUI.transform);
     }
 }

@@ -25,6 +25,7 @@
             <e p="SawPlayer.cs" t="Include" />
           </e>
           <e p="Gameplay Scripts" t="Include">
+            <e p="DamageIndicator.cs" t="Include" />
             <e p="DestroyObj.cs" t="Include" />
             <e p="HealthData.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
