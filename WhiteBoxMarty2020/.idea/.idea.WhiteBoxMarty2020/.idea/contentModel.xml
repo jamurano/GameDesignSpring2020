@@ -28,6 +28,7 @@
             <e p="DamageIndicator.cs" t="Include" />
             <e p="DestroyObj.cs" t="Include" />
             <e p="HealthData.cs" t="Include" />
+            <e p="HeartData.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
             <e p="InventorySlot.cs" t="Include" />
             <e p="LootData.cs" t="Include" />
@@ -70,6 +71,7 @@
             <e p="Dialogue.cs" t="Include" />
             <e p="GameOver.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
+            <e p="HeartsUI.cs" t="Include" />
             <e p="InventoryMenu.cs" t="Include" />
             <e p="InventoryUI.cs" t="Include" />
             <e p="JemIcon.cs" t="Include" />

@@ -8,14 +8,16 @@ public class UseItem : MonoBehaviour
         if (GetComponent<PickUp>().pickUps == PickUp.pickUpType.HEALTH)
         {
             player = GameObject.Find("First Person Player");
-            player.GetComponent<HealthData>().Heal();
+            if (player.GetComponent<HealthData>().currentHealth < player.GetComponent<HealthData>().maxHealth)
+            {
+                player.GetComponent<HealthData>().Heal();
+                Destroy(gameObject);
+            }
         }
         if (GetComponent<PickUp>().pickUps == PickUp.pickUpType.MANA)
         {
             player = GameObject.Find("First Person Player");
             player.GetComponent<ManaData>().ManaIncrease();
         }
-        
-        Destroy(gameObject);
     }
 }

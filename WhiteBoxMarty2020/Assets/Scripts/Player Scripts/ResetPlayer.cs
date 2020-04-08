@@ -18,4 +18,9 @@ public class ResetPlayer : MonoBehaviour
         healthBar.GetComponent<HealthBar>().OnHealthChanged();
         manaBar.GetComponent<ManaBar>().OnManaChanged();
     }
+
+    public void ChangeRespawnPoint(GameObject newSpawn)
+    {
+        respawnPoint = newSpawn;
+    }
 }

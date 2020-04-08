@@ -18,4 +18,9 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         print("Quitting Game");
     }
+
+    public void ResetGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

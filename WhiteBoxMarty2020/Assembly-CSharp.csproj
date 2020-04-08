@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Gameplay Scripts\DamageIndicator.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\DestroyObj.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\HealthData.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\HeartData.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\HitBox.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\LootData.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Assets\Scripts\UI Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\HeartsUI.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryMenu.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\JemIcon.cs" />
