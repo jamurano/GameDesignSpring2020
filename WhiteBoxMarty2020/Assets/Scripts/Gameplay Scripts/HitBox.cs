@@ -9,5 +9,11 @@ public class HitBox : MonoBehaviour
         {
             other.GetComponent<HealthData>().TakeDamage(damage);
         }
+
+        if (other.GetComponent<KnockBack>())
+        {
+            //send enemies position
+            other.GetComponent<KnockBack>().KnockedBack(transform.parent.parent.gameObject);
+        }
     }
 }

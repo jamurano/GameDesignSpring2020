@@ -43,6 +43,7 @@
           <e p="Player Scripts" t="Include">
             <e p="AttachToPlatform.cs" t="Include" />
             <e p="AttackScript.cs" t="Include" />
+            <e p="KnockBack.cs" t="Include" />
             <e p="MagicBlast.cs" t="Include" />
             <e p="MagicBlastHitBox.cs" t="Include" />
             <e p="PlayerMovement.cs" t="Include" />
@@ -68,13 +69,10 @@
           </e>
           <e p="UI Scripts" t="Include">
             <e p="ClickItem.cs" t="Include" />
-            <e p="Dialogue.cs" t="Include" />
-            <e p="GameOver.cs" t="Include" />
             <e p="HealthBar.cs" t="Include" />
             <e p="HeartsUI.cs" t="Include" />
             <e p="InventoryMenu.cs" t="Include" />
             <e p="InventoryUI.cs" t="Include" />
-            <e p="JemIcon.cs" t="Include" />
             <e p="MainMenu.cs" t="Include" />
             <e p="ManaBar.cs" t="Include" />
             <e p="PauseMenu.cs" t="Include" />
