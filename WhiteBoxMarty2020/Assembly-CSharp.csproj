@@ -65,16 +65,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AddPointsList.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AiBase.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AiBehaviour.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AiBrain.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AiHunt.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AiIdle.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\AiPatrol.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\DataStorage.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\GameAction.cs" />
-    <Compile Include="Assets\Scripts\EnemyScripts\AnthonyScripts\GameActionHandler.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyAttackScript.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\EnemyScripts\SawPlayer.cs" />
