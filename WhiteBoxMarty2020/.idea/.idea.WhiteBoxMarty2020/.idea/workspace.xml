@@ -13,12 +13,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/AiPatrol.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/DataStorage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/AiBrain.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/AiBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,16 +50,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttachToPlatform.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/AiBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/AiHunt.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/TriggerLinedUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HealthBar.cs" />
@@ -108,12 +101,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttachToPlatform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HeartData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HeartsUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/KnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HitBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HeartsUI.cs" />
       </list>
     </option>
   </component>
@@ -221,7 +215,7 @@
       <workItem from="1585875933501" duration="4870000" />
       <workItem from="1585939010301" duration="4808000" />
       <workItem from="1586012992480" duration="7440000" />
-      <workItem from="1586297441796" duration="9910000" />
+      <workItem from="1586297441796" duration="10725000" />
     </task>
     <servers />
   </component>

@@ -8,18 +8,6 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="EnemyScripts" t="Include">
-            <e p="AnthonyScripts" t="Include">
-              <e p="AddPointsList.cs" t="Include" />
-              <e p="AiBase.cs" t="Include" />
-              <e p="AiBehaviour.cs" t="Include" />
-              <e p="AiBrain.cs" t="Include" />
-              <e p="AiHunt.cs" t="Include" />
-              <e p="AiIdle.cs" t="Include" />
-              <e p="AiPatrol.cs" t="Include" />
-              <e p="DataStorage.cs" t="Include" />
-              <e p="GameAction.cs" t="Include" />
-              <e p="GameActionHandler.cs" t="Include" />
-            </e>
             <e p="EnemyAttackScript.cs" t="Include" />
             <e p="EnemyMovement.cs" t="Include" />
             <e p="SawPlayer.cs" t="Include" />
