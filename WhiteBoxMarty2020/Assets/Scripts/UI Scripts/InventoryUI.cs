@@ -60,27 +60,31 @@ public class InventoryUI : MonoBehaviour
                 break;
             }
         }
-        //temp variable that stores what prefab we want to put in the slot
-        GameObject buttonToAdd = null;
-        //if pickup is mana, then use mana prefab
-        if (type == PickUp.pickUpType.MANA)
+        
+        if (inventoryButtons[index] == null)
         {
-            //Do mana stuff
-            buttonToAdd = manaButtonPrefab;
-            // instantiate prefabe and place it in inventory
-            inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
-            //making prefab appear in inventory menu
-            inventoryButtons[index].transform.SetParent(inventoryUI.transform);
-        }
-        //if pickup is health, then use health prefab
-        if (type == PickUp.pickUpType.HEALTH)
-        {
-            //Do health stuff
-            buttonToAdd = healthButtonPrefab;
-            // instantiate prefabe and place it in inventory
-            inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
-            //making prefab appear in inventory menu
-            inventoryButtons[index].transform.SetParent(inventoryUI.transform);
+            //temp variable that stores what prefab we want to put in the slot
+            GameObject buttonToAdd = null;
+            //if pickup is mana, then use mana prefab
+            if (type == PickUp.pickUpType.MANA)
+            {
+                //Do mana stuff
+                buttonToAdd = manaButtonPrefab;
+                // instantiate prefab and place it in inventory
+                inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
+                //making prefab appear in inventory menu
+                inventoryButtons[index].transform.SetParent(inventoryUI.transform);
+            }
+            //if pickup is health, then use health prefab
+            if (type == PickUp.pickUpType.HEALTH)
+            {
+                //Do health stuff
+                buttonToAdd = healthButtonPrefab;
+                // instantiate prefabe and place it in inventory
+                inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
+                //making prefab appear in inventory menu
+                inventoryButtons[index].transform.SetParent(inventoryUI.transform);
+            }
         }
     }
 }

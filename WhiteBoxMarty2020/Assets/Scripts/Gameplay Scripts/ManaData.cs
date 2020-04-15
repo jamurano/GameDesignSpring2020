@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Runtime.Serialization;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class ManaData : MonoBehaviour
@@ -6,6 +8,9 @@ public class ManaData : MonoBehaviour
     public ObjectDefinition definition;
     public float maxMana, currentMana;
     public float manaIncreaseAmount = 10f;
+    
+    public float refillManaWait;
+    private bool refillIsRunning = false;
 
     public UnityEvent manaDecreaseEvent;
 
@@ -28,6 +33,10 @@ public class ManaData : MonoBehaviour
     {
         currentMana = currentMana - decrease;
         manaDecreaseEvent.Invoke();
+        if (!refillIsRunning)
+        {
+            StartCoroutine(SlowlyRefillMana());
+        }
     }
 
     public void ManaIncrease()
@@ -35,5 +44,17 @@ public class ManaData : MonoBehaviour
         currentMana = currentMana + manaIncreaseAmount;
         GetComponent<AttackScript>().canUseMagic = true;
         manaDecreaseEvent.Invoke();
+    }
+    
+    public IEnumerator SlowlyRefillMana()
+    {
+        refillIsRunning = true;
+        while (currentMana < maxMana)
+        {
+            currentMana++;
+            yield return new WaitForSeconds(refillManaWait);
+        }
+
+        refillIsRunning = false;
     }
 }
