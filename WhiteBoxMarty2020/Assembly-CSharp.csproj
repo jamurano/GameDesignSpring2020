@@ -83,7 +83,7 @@
     <Compile Include="Assets\Scripts\Gameplay Scripts\HealthData.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\HeartData.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\HitBox.cs" />
-    <Compile Include="Assets\Scripts\Gameplay Scripts\InstansiateGameObject.cs" />
+    <Compile Include="Assets\Scripts\Gameplay Scripts\InstantiateObject.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\LootData.cs" />
     <Compile Include="Assets\Scripts\Gameplay Scripts\LootObjects.cs" />

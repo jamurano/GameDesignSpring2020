@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: -1351239225996481942}
   - component: {fileID: 5421246694495357102}
   - component: {fileID: 7422331258671315943}
-  - component: {fileID: 6647368246977821891}
+  - component: {fileID: 1240050247517760694}
   m_Layer: 10
   m_Name: EnemyABasic
   m_TagString: Enemy
@@ -455,8 +455,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6647368246977821891}
-        m_MethodName: InstansiateGameObj
+      - m_Target: {fileID: 1240050247517760694}
+        m_MethodName: InstantiateObj
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -638,7 +638,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   timerIsRunning: 0
---- !u!114 &6647368246977821891
+--- !u!114 &1240050247517760694
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -647,10 +647,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 196644933223365840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 52f416e3b27faf647bd090bf4877290d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2166560c0cde35c489a12b0aa37d2e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obj: {fileID: 9056347686543118210, guid: 6a1845d7dd6319641b900230376794aa, type: 3}
+  deathParticlePrefab: {fileID: 9056347686543118210, guid: 6a1845d7dd6319641b900230376794aa,
+    type: 3}
 --- !u!1 &196644933271647885
 GameObject:
   m_ObjectHideFlags: 0

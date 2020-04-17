@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/ResetPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstantiateObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InventorySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,13 +56,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstansiateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/ChangeColor.cs" />
@@ -89,7 +87,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/AnthonyScripts/DataStorage.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/DestroyObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/CoinCounter.cs" />
@@ -106,11 +103,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HeartsUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/TimerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ParticleInstansiate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstansiateGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InvokeGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstantiateObject.cs" />
       </list>
     </option>
   </component>
@@ -222,6 +222,8 @@
       <workItem from="1586297441796" duration="12159000" />
       <workItem from="1586877584746" duration="8252000" />
       <workItem from="1587059947017" duration="3964000" />
+      <workItem from="1587157510032" duration="1842000" />
+      <workItem from="1587159596894" duration="1306000" />
     </task>
     <servers />
   </component>

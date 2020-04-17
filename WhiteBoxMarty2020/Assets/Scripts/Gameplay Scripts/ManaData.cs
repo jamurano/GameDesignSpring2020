@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Runtime.Serialization;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -51,6 +50,7 @@ public class ManaData : MonoBehaviour
         refillIsRunning = true;
         while (currentMana < maxMana)
         {
+            manaDecreaseEvent.Invoke();
             currentMana++;
             yield return new WaitForSeconds(refillManaWait);
         }
