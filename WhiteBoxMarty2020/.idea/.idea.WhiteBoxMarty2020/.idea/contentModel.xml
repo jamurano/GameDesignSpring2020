@@ -52,6 +52,7 @@
             <e p="HealthData.cs" t="Include" />
             <e p="HeartData.cs" t="Include" />
             <e p="HitBox.cs" t="Include" />
+            <e p="InstansiateGameObject.cs" t="Include" />
             <e p="InventorySlot.cs" t="Include" />
             <e p="LootData.cs" t="Include" />
             <e p="LootObjects.cs" t="Include" />

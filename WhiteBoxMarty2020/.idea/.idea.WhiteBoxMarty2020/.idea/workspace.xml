@@ -55,13 +55,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstansiateGameObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HealthBar.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" />
@@ -110,6 +108,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/TimerEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ParticleInstansiate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstansiateGameObject.cs" />
       </list>
     </option>
   </component>
@@ -126,6 +127,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,6 +221,7 @@
       <workItem from="1586012992480" duration="7440000" />
       <workItem from="1586297441796" duration="12159000" />
       <workItem from="1586877584746" duration="8252000" />
+      <workItem from="1587059947017" duration="3964000" />
     </task>
     <servers />
   </component>
@@ -242,6 +245,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="881" y="264" key="run.anything.popup" />
+    <state x="881" y="264" key="run.anything.popup/1920.1080/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
