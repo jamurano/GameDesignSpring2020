@@ -80,7 +80,7 @@ public class InventoryUI : MonoBehaviour
             {
                 //Do health stuff
                 buttonToAdd = healthButtonPrefab;
-                // instantiate prefabe and place it in inventory
+                // instantiate prefab and place it in inventory
                 inventoryButtons[index] = Instantiate(buttonToAdd, inventorySlots[index].transform.position, Quaternion.identity);
                 //making prefab appear in inventory menu
                 inventoryButtons[index].transform.SetParent(inventoryUI.transform);

@@ -102,7 +102,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HeartsUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/TimerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ParticleInstansiate.cs" />
@@ -111,6 +110,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InvokeGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstantiateObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
       </list>
     </option>
   </component>
@@ -223,7 +223,8 @@
       <workItem from="1586877584746" duration="8252000" />
       <workItem from="1587059947017" duration="3964000" />
       <workItem from="1587157510032" duration="1842000" />
-      <workItem from="1587159596894" duration="1306000" />
+      <workItem from="1587159596894" duration="1337000" />
+      <workItem from="1587182796051" duration="262000" />
     </task>
     <servers />
   </component>

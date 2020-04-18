@@ -9,6 +9,7 @@ TagManager:
   - Platform
   - Interact
   - MagicBlast
+  - FxTemporaire
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Opacity
   - Player Weapon
   - SpawnPoints
-  - 
+  - OtherObject
   - 
   - 
   - 
