@@ -72,15 +72,10 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.Dropdown
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.Mask
-    - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
-    - UnityEngine.UI.Toggle
   sceneClasses:
     Assets/Scenes/Level01.unity:
     - Class: 1
@@ -110,6 +105,8 @@ ScriptsOnlyBuild:
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
+      Script: {instanceID: 0}
+    - Class: 90
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -214,31 +211,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10524}
     - Class: 114
-      Script: {instanceID: 10594}
+      Script: {instanceID: 10560}
     - Class: 114
-      Script: {instanceID: 10656}
+      Script: {instanceID: 10596}
     - Class: 114
-      Script: {instanceID: 10784}
+      Script: {instanceID: 10658}
     - Class: 114
-      Script: {instanceID: 10828}
+      Script: {instanceID: 10786}
     - Class: 114
-      Script: {instanceID: 10836}
+      Script: {instanceID: 10830}
     - Class: 114
-      Script: {instanceID: 10848}
+      Script: {instanceID: 10838}
     - Class: 114
       Script: {instanceID: 10850}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10852}
     - Class: 114
       Script: {instanceID: 10924}
     - Class: 114
-      Script: {instanceID: 10928}
+      Script: {instanceID: 10926}
     - Class: 114
-      Script: {instanceID: 10968}
+      Script: {instanceID: 10930}
     - Class: 114
-      Script: {instanceID: 10976}
+      Script: {instanceID: 10970}
     - Class: 114
-      Script: {instanceID: 702662}
+      Script: {instanceID: 10978}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -246,6 +243,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -309,8 +308,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9452}
     - Class: 114
-      Script: {instanceID: 9456}
-    - Class: 114
       Script: {instanceID: 9458}
     - Class: 114
       Script: {instanceID: 9460}
@@ -319,19 +316,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9472}
     - Class: 114
-      Script: {instanceID: 9480}
-    - Class: 114
-      Script: {instanceID: 9498}
-    - Class: 114
-      Script: {instanceID: 9500}
-    - Class: 114
-      Script: {instanceID: 9506}
-    - Class: 114
       Script: {instanceID: 9508}
     - Class: 114
       Script: {instanceID: 9510}
-    - Class: 114
-      Script: {instanceID: 9512}
     - Class: 114
       Script: {instanceID: 9890}
     - Class: 114
@@ -341,9 +328,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10364}
     - Class: 114
-      Script: {instanceID: 10796}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 10884}
+      Script: {instanceID: 10886}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1525,6 +1512,12 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
+      Hash: 352d36e0b251b1c10b535dcecb941bc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InstantiateObject
+  - hash:
+      serializedVersion: 2
       Hash: 516824a435828eadd660ef2f1658a48e
     assemblyName: Unity.Analytics.DataPrivacy.dll
     namespaceName: UnityEngine.Analytics
@@ -1775,14 +1768,8 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LootData
-  - hash:
-      serializedVersion: 2
-      Hash: 352d36e0b251b1c10b535dcecb941bc8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InstantiateObject
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Level01.unity
-  playerPath: C:/Users/Jessica/Desktop/Build5/WhiteBoxMarty2020.exe
+  playerPath: C:/Users/Jessica/Desktop/Build6/WhiteBoxMarty2020.exe
