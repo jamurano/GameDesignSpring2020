@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,7 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/GameOver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/ChangeColor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityShaders.cs" />
@@ -111,6 +111,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstantiateObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/SettingsMenu.cs" />
       </list>
     </option>
   </component>
@@ -226,6 +227,8 @@
       <workItem from="1587159596894" duration="1337000" />
       <workItem from="1587182796051" duration="262000" />
       <workItem from="1587506288268" duration="607000" />
+      <workItem from="1587519765672" duration="2686000" />
+      <workItem from="1587528383730" duration="613000" />
     </task>
     <servers />
   </component>

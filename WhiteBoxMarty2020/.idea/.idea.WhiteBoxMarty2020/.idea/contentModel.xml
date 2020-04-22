@@ -104,6 +104,7 @@
             <e p="UseInventoryItem.cs" t="Include" />
           </e>
         </e>
+        <e p="SettingsMenu.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">
