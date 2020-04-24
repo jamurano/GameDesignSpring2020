@@ -16,11 +16,13 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     public bool isClimbing;
     public bool isRunning;
+
+    public LayerMask ground;
     
     void Update()
     {
         //Checks to see if player is touching the ground
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance);
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, ground);
         float x = Input.GetAxis("Horizontal"); 
         float z = Input.GetAxis("Vertical");
 

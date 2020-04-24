@@ -1,11 +1,16 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 public class InstantiateObject : MonoBehaviour
 {
-    public GameObject deathParticlePrefab;
+    public List <GameObject> objsToSpawn;
 
     public void InstantiateObj()
     {
-        Instantiate(deathParticlePrefab, transform.position, transform.rotation);
+        foreach (GameObject obj in objsToSpawn)
+        {
+            Instantiate(obj, transform.position, transform.rotation);
+        }
     }
 }

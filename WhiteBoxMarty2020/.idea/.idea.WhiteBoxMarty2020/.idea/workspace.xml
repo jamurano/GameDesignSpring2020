@@ -19,7 +19,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/Switch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/UseInventoryItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/SettingsMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HealthData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/ClickItem.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,6 +49,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI Scripts/PopupBoxForward.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/RotatingPuzzle/TriggerLinedUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/SawPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -61,9 +61,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/GameOver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/JadeStonePuzzle/ChangeColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityShaders.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/OpacityTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlast.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/MagicBlastHitBox.cs" />
@@ -88,7 +85,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/DestroyObj.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyAttackScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyScripts/EnemyMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/CoinCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Scripts/ApplePuzzle/InteractScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/DamageIndicator.cs" />
@@ -99,9 +95,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/PauseMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/KnockBack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/HitBox.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/HeartsUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/TimerEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/ManaBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ParticleInstansiate.cs" />
@@ -109,9 +103,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/ManaData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InvokeGameObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/AttackScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstantiateObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/InventoryUI.cs" />
         <option value="$PROJECT_DIR$/Assets/SettingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/SettingsMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/SettingsMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/PopupBoxForward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI Scripts/QuickSelectMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player Scripts/UseItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Gameplay Scripts/InstantiateObject.cs" />
       </list>
     </option>
   </component>
@@ -229,6 +229,9 @@
       <workItem from="1587506288268" duration="607000" />
       <workItem from="1587519765672" duration="2686000" />
       <workItem from="1587528383730" duration="613000" />
+      <workItem from="1587578479584" duration="742000" />
+      <workItem from="1587589636317" duration="2133000" />
+      <workItem from="1587667075149" duration="6175000" />
     </task>
     <servers />
   </component>

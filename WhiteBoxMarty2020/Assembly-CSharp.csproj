@@ -65,6 +65,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Art\AN Interactive Physical Door Pack\Scripts\AN_Button.cs" />
+    <Compile Include="Assets\Art\AN Interactive Physical Door Pack\Scripts\AN_DoorKey.cs" />
+    <Compile Include="Assets\Art\AN Interactive Physical Door Pack\Scripts\AN_DoorScript.cs" />
+    <Compile Include="Assets\Art\AN Interactive Physical Door Pack\Scripts\AN_HeroController.cs" />
+    <Compile Include="Assets\Art\AN Interactive Physical Door Pack\Scripts\AN_HeroInteractive.cs" />
+    <Compile Include="Assets\Art\AN Interactive Physical Door Pack\Scripts\AN_PlugScript.cs" />
     <Compile Include="Assets\Art\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Art\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
     <Compile Include="Assets\Art\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
@@ -118,10 +124,11 @@
     <Compile Include="Assets\Scripts\UI Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\ManaBar.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\PopupBoxForward.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\QuickSelectMenu.cs" />
+    <Compile Include="Assets\Scripts\UI Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\TimerEvent.cs" />
     <Compile Include="Assets\Scripts\UI Scripts\UseInventoryItem.cs" />
-    <Compile Include="Assets\SettingsMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

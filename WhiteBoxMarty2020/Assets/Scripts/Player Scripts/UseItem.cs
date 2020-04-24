@@ -17,8 +17,11 @@ public class UseItem : MonoBehaviour
         if (GetComponent<PickUp>().pickUps == PickUp.pickUpType.MANA)
         {
             player = GameObject.Find("First Person Player");
-            player.GetComponent<ManaData>().ManaIncrease();
-            Destroy(gameObject);
+            if (player.GetComponent<ManaData>().currentMana < player.GetComponent<ManaData>().maxMana)
+            {
+                player.GetComponent<ManaData>().ManaIncrease();
+                Destroy(gameObject);
+            }
         }
     }
 }
